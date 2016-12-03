@@ -106,7 +106,7 @@
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+					<Properties SaveInSnapshot="true" Constant="true" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[double]]></Type>        
 						<InitialValue Class="CodeValue">
 							<Code><![CDATA[148/busCount]]></Code>
@@ -121,10 +121,10 @@
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+					<Properties SaveInSnapshot="true" Constant="true" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[20]]></Code>
+							<Code><![CDATA[8]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -144,15 +144,15 @@
 					</Properties>
 				</Variable>
 				<Variable Class="PlainVariable">
-					<Id>1480762015270</Id>
-					<Name><![CDATA[i]]></Name>
-					<X>710</X><Y>-20</Y>
+					<Id>1480768262520</Id>
+					<Name><![CDATA[delay]]></Name>
+					<X>280</X><Y>0</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
-						<Type><![CDATA[int]]></Type>        
+						<Type><![CDATA[double]]></Type>        
 						<InitialValue Class="CodeValue">
 							<Code><![CDATA[0]]></Code>
 						</InitialValue>
@@ -2818,7 +2818,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyBDrop]]></ItemName>
+						<ItemName><![CDATA[KronshtadskayaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2842,7 +2842,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyB]]></ItemName>
+						<ItemName><![CDATA[Kronshtadskaya]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2852,7 +2852,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyBPick]]></ItemName>
+						<ItemName><![CDATA[KronshtadskayaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2887,7 +2887,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyB]]></ItemName>
+						<ItemName><![CDATA[Kronshtadskaya]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2910,7 +2910,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyBLeave]]></ItemName>
+						<ItemName><![CDATA[KronshtadskayaLeave]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2920,7 +2920,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyB]]></ItemName>
+						<ItemName><![CDATA[Kronshtadskaya]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2943,7 +2943,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyB]]></ItemName>
+						<ItemName><![CDATA[Kronshtadskaya]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2953,7 +2953,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyBLeave]]></ItemName>
+						<ItemName><![CDATA[KronshtadskayaLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2976,7 +2976,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyBDrop]]></ItemName>
+						<ItemName><![CDATA[KronshtadskayaDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -2986,7 +2986,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyBPick]]></ItemName>
+						<ItemName><![CDATA[KronshtadskayaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3009,7 +3009,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyBPick]]></ItemName>
+						<ItemName><![CDATA[KronshtadskayaPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3042,7 +3042,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[KurlyandBDrop]]></ItemName>
+						<ItemName><![CDATA[KomsomolskayaDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3052,7 +3052,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[KurlyandBPick]]></ItemName>
+						<ItemName><![CDATA[KomsomolskayaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3085,7 +3085,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[KurlyandBDrop]]></ItemName>
+						<ItemName><![CDATA[KomsomolskayaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3109,7 +3109,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[KurlyandB]]></ItemName>
+						<ItemName><![CDATA[Komsomolskaya]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3119,7 +3119,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[KurlyandBPick]]></ItemName>
+						<ItemName><![CDATA[KomsomolskayaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3154,7 +3154,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[KurlyandB]]></ItemName>
+						<ItemName><![CDATA[Komsomolskaya]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3177,7 +3177,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[sink22]]></ItemName>
+						<ItemName><![CDATA[KomsomolskayaLeave]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3187,7 +3187,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[KurlyandB]]></ItemName>
+						<ItemName><![CDATA[Komsomolskaya]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3210,7 +3210,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[KurlyandB]]></ItemName>
+						<ItemName><![CDATA[Komsomolskaya]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3220,7 +3220,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[sink22]]></ItemName>
+						<ItemName><![CDATA[KomsomolskayaLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3243,7 +3243,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[KurlyandBPick]]></ItemName>
+						<ItemName><![CDATA[KomsomolskayaPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3276,7 +3276,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofBDrop]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetroDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3286,7 +3286,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofBPick]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetroPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3319,7 +3319,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofBDrop]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetroDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3343,7 +3343,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofB]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetro]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3353,7 +3353,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofBPick]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetroPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3388,7 +3388,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofB]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetro]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3411,7 +3411,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofBLeave]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetroLeave]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3421,7 +3421,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofB]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetro]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3444,7 +3444,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofB]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetro]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3454,7 +3454,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofBLeave]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetroLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3477,7 +3477,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofBPick]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetroPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3510,7 +3510,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop]]></ItemName>
+						<ItemName><![CDATA[VozrozhdeniyaDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3520,7 +3520,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick]]></ItemName>
+						<ItemName><![CDATA[VozrozhdeniyaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3553,7 +3553,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop]]></ItemName>
+						<ItemName><![CDATA[VozrozhdeniyaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3577,7 +3577,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick]]></ItemName>
+						<ItemName><![CDATA[VozrozhdeniyaPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3620,7 +3620,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[StaroPetergofBDrop]]></ItemName>
+						<ItemName><![CDATA[KirovZavodMetroDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3657,7 +3657,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[KurlyandBDrop]]></ItemName>
+						<ItemName><![CDATA[KomsomolskayaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3694,7 +3694,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RizhskiyBDrop]]></ItemName>
+						<ItemName><![CDATA[KronshtadskayaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3721,7 +3721,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53BDrop]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogoDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3731,7 +3731,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53BPick]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogoPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3764,7 +3764,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53BDrop]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogoDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3788,7 +3788,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53B]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogo]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3798,7 +3798,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53BPick]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogoPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3833,7 +3833,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53B]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogo]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3856,7 +3856,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53BLeave]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogoLeave]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3866,7 +3866,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53B]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogo]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3890,7 +3890,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53B]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogo]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3900,7 +3900,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53BLeave]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogoLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3924,7 +3924,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53BPick]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogoPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3957,7 +3957,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermPrBDrop]]></ItemName>
+						<ItemName><![CDATA[Zhukova32Drop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -3967,7 +3967,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermPrBPick]]></ItemName>
+						<ItemName><![CDATA[Zhukova32Pick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4000,7 +4000,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermPrBDrop]]></ItemName>
+						<ItemName><![CDATA[Zhukova32Drop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4024,7 +4024,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermProspB]]></ItemName>
+						<ItemName><![CDATA[Zhukova32]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4034,7 +4034,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermPrBPick]]></ItemName>
+						<ItemName><![CDATA[Zhukova32Pick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4069,7 +4069,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermProspB]]></ItemName>
+						<ItemName><![CDATA[Zhukova32]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4092,7 +4092,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermProspBLeave]]></ItemName>
+						<ItemName><![CDATA[Zhukova32Leave]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4102,7 +4102,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermProspB]]></ItemName>
+						<ItemName><![CDATA[Zhukova32]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4125,7 +4125,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermProspB]]></ItemName>
+						<ItemName><![CDATA[Zhukova32]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4135,7 +4135,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermProspBLeave]]></ItemName>
+						<ItemName><![CDATA[Zhukova32Leave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4158,7 +4158,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermPrBPick]]></ItemName>
+						<ItemName><![CDATA[Zhukova32Pick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4191,7 +4191,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovBDrop]]></ItemName>
+						<ItemName><![CDATA[Zhukova30Drop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4201,7 +4201,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovBPick]]></ItemName>
+						<ItemName><![CDATA[Zhukova30Pick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4234,7 +4234,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovBDrop]]></ItemName>
+						<ItemName><![CDATA[Zhukova30Drop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4258,7 +4258,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovB]]></ItemName>
+						<ItemName><![CDATA[Zhukova30]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4268,7 +4268,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovBPick]]></ItemName>
+						<ItemName><![CDATA[Zhukova30Pick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4303,7 +4303,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovB]]></ItemName>
+						<ItemName><![CDATA[Zhukova30]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4326,7 +4326,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovBLeave]]></ItemName>
+						<ItemName><![CDATA[Zhukova30Leave]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4336,7 +4336,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovB]]></ItemName>
+						<ItemName><![CDATA[Zhukova30]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4359,7 +4359,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovB]]></ItemName>
+						<ItemName><![CDATA[Zhukova30]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4369,7 +4369,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovBLeave]]></ItemName>
+						<ItemName><![CDATA[Zhukova30Leave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4392,7 +4392,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovBPick]]></ItemName>
+						<ItemName><![CDATA[Zhukova30Pick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4425,7 +4425,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBrBDrop]]></ItemName>
+						<ItemName><![CDATA[KazakovaDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4435,7 +4435,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBrBPick]]></ItemName>
+						<ItemName><![CDATA[KazakovaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4468,7 +4468,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBrBDrop]]></ItemName>
+						<ItemName><![CDATA[KazakovaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4492,7 +4492,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBrB]]></ItemName>
+						<ItemName><![CDATA[Kazakova]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4502,7 +4502,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBrBPick]]></ItemName>
+						<ItemName><![CDATA[KazakovaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4537,7 +4537,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBrB]]></ItemName>
+						<ItemName><![CDATA[Kazakova]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4560,7 +4560,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBLeave]]></ItemName>
+						<ItemName><![CDATA[KazakovaLeave]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4570,7 +4570,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBrB]]></ItemName>
+						<ItemName><![CDATA[Kazakova]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4593,7 +4593,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBrB]]></ItemName>
+						<ItemName><![CDATA[Kazakova]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4603,7 +4603,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBLeave]]></ItemName>
+						<ItemName><![CDATA[KazakovaLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4626,7 +4626,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBrBPick]]></ItemName>
+						<ItemName><![CDATA[KazakovaPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4659,7 +4659,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqBDrop]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstrDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4669,7 +4669,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqBPick]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstrPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4702,7 +4702,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqBDrop]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstrDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4726,7 +4726,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqB]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstr]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4736,7 +4736,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqBPick]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstrPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4771,7 +4771,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqB]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstr]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4794,7 +4794,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqBLeave]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstrLeave]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4804,7 +4804,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqB]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstr]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4827,7 +4827,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqB]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstr]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4837,7 +4837,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqBLeave]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstrLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4860,7 +4860,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqBPick]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstrPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4903,7 +4903,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RepinaSqBDrop]]></ItemName>
+						<ItemName><![CDATA[DorNaTuruhanskieOstrDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4936,7 +4936,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[AlarchinBrBDrop]]></ItemName>
+						<ItemName><![CDATA[KazakovaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -4973,7 +4973,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[DekabristovBDrop]]></ItemName>
+						<ItemName><![CDATA[Zhukova30Drop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5010,7 +5010,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermPrBDrop]]></ItemName>
+						<ItemName><![CDATA[Zhukova32Drop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5047,7 +5047,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53BDrop]]></ItemName>
+						<ItemName><![CDATA[ZhukovaLeninskogoDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5084,7 +5084,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39BDrop]]></ItemName>
+						<ItemName><![CDATA[Leninskiy79Drop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5108,7 +5108,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39BDrop]]></ItemName>
+						<ItemName><![CDATA[Leninskiy79Drop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5178,7 +5178,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB]]></ItemName>
+						<ItemName><![CDATA[Vozrozhdeniya]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5188,7 +5188,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave]]></ItemName>
+						<ItemName><![CDATA[VozrozhdeniyaLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5211,7 +5211,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB]]></ItemName>
+						<ItemName><![CDATA[Vozrozhdeniya]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5221,7 +5221,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave]]></ItemName>
+						<ItemName><![CDATA[VozrozhdeniyaLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5254,7 +5254,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB]]></ItemName>
+						<ItemName><![CDATA[Vozrozhdeniya]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5277,7 +5277,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB]]></ItemName>
+						<ItemName><![CDATA[Vozrozhdeniya]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5287,7 +5287,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick]]></ItemName>
+						<ItemName><![CDATA[VozrozhdeniyaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5312,7 +5312,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetroDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5322,7 +5322,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetroPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5355,7 +5355,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetroDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5379,7 +5379,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetroPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5412,7 +5412,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetro]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5422,7 +5422,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetroLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5445,7 +5445,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetro]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5455,7 +5455,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetroLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5478,7 +5478,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53Src19]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetroSrc]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5488,7 +5488,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetro]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5511,7 +5511,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetro]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5521,7 +5521,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetroPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5546,7 +5546,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop2]]></ItemName>
+						<ItemName><![CDATA[StachekDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5556,7 +5556,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick2]]></ItemName>
+						<ItemName><![CDATA[StachekPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5589,7 +5589,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop2]]></ItemName>
+						<ItemName><![CDATA[StachekDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5613,7 +5613,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick2]]></ItemName>
+						<ItemName><![CDATA[StachekPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5646,7 +5646,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB2]]></ItemName>
+						<ItemName><![CDATA[Stachek]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5656,7 +5656,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave2]]></ItemName>
+						<ItemName><![CDATA[StachekLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5679,7 +5679,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB2]]></ItemName>
+						<ItemName><![CDATA[Stachek]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5689,7 +5689,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave2]]></ItemName>
+						<ItemName><![CDATA[StachekLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5722,7 +5722,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB2]]></ItemName>
+						<ItemName><![CDATA[Stachek]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5745,7 +5745,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB2]]></ItemName>
+						<ItemName><![CDATA[Stachek]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5755,7 +5755,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick2]]></ItemName>
+						<ItemName><![CDATA[StachekPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5780,7 +5780,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop3]]></ItemName>
+						<ItemName><![CDATA[TrefolevaDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5790,7 +5790,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick3]]></ItemName>
+						<ItemName><![CDATA[TrefolevaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5823,7 +5823,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop3]]></ItemName>
+						<ItemName><![CDATA[TrefolevaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5847,7 +5847,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick3]]></ItemName>
+						<ItemName><![CDATA[TrefolevaPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5880,7 +5880,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB3]]></ItemName>
+						<ItemName><![CDATA[Trefoleva]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5890,7 +5890,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave3]]></ItemName>
+						<ItemName><![CDATA[TrefolevaLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5913,7 +5913,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB3]]></ItemName>
+						<ItemName><![CDATA[Trefoleva]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5923,7 +5923,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave3]]></ItemName>
+						<ItemName><![CDATA[TrefolevaLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5956,7 +5956,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB3]]></ItemName>
+						<ItemName><![CDATA[Trefoleva]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5979,7 +5979,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB3]]></ItemName>
+						<ItemName><![CDATA[Trefoleva]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5989,7 +5989,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick3]]></ItemName>
+						<ItemName><![CDATA[TrefolevaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6014,7 +6014,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop4]]></ItemName>
+						<ItemName><![CDATA[OgorodniyDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6024,7 +6024,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick4]]></ItemName>
+						<ItemName><![CDATA[OgorodniyPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6057,7 +6057,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop4]]></ItemName>
+						<ItemName><![CDATA[OgorodniyDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6081,7 +6081,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick4]]></ItemName>
+						<ItemName><![CDATA[OgorodniyPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6114,7 +6114,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB4]]></ItemName>
+						<ItemName><![CDATA[Ogorodniy]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6124,7 +6124,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave4]]></ItemName>
+						<ItemName><![CDATA[OgorodniyLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6147,7 +6147,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB4]]></ItemName>
+						<ItemName><![CDATA[Ogorodniy]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6157,7 +6157,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave4]]></ItemName>
+						<ItemName><![CDATA[OgorodniyLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6190,7 +6190,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB4]]></ItemName>
+						<ItemName><![CDATA[Ogorodniy]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6213,7 +6213,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB4]]></ItemName>
+						<ItemName><![CDATA[Ogorodniy]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6223,7 +6223,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick4]]></ItemName>
+						<ItemName><![CDATA[OgorodniyPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6248,7 +6248,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100Drop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6258,7 +6258,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100Pick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6291,7 +6291,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100Drop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6315,7 +6315,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100Pick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6348,7 +6348,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6358,7 +6358,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100Leave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6381,7 +6381,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6391,7 +6391,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100Leave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6424,7 +6424,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6447,7 +6447,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6457,7 +6457,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100Pick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6482,7 +6482,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop6]]></ItemName>
+						<ItemName><![CDATA[KotinaDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6492,7 +6492,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick6]]></ItemName>
+						<ItemName><![CDATA[KotinaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6525,7 +6525,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop6]]></ItemName>
+						<ItemName><![CDATA[KotinaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6549,7 +6549,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick6]]></ItemName>
+						<ItemName><![CDATA[KotinaPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6582,7 +6582,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB6]]></ItemName>
+						<ItemName><![CDATA[Kotina]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6592,7 +6592,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave6]]></ItemName>
+						<ItemName><![CDATA[KotinaLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6615,7 +6615,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB6]]></ItemName>
+						<ItemName><![CDATA[Kotina]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6625,7 +6625,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave6]]></ItemName>
+						<ItemName><![CDATA[KotinaLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6658,7 +6658,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB6]]></ItemName>
+						<ItemName><![CDATA[Kotina]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6681,7 +6681,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB6]]></ItemName>
+						<ItemName><![CDATA[Kotina]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6691,7 +6691,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick6]]></ItemName>
+						<ItemName><![CDATA[KotinaPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6716,7 +6716,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop7]]></ItemName>
+						<ItemName><![CDATA[DesantnikovDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6726,7 +6726,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick7]]></ItemName>
+						<ItemName><![CDATA[DesantnikovPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6759,7 +6759,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop7]]></ItemName>
+						<ItemName><![CDATA[DesantnikovDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6783,7 +6783,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick7]]></ItemName>
+						<ItemName><![CDATA[DesantnikovPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6816,7 +6816,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB7]]></ItemName>
+						<ItemName><![CDATA[Desantnikov]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6826,7 +6826,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave7]]></ItemName>
+						<ItemName><![CDATA[DesantnikovLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6849,7 +6849,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB7]]></ItemName>
+						<ItemName><![CDATA[Desantnikov]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6859,7 +6859,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave7]]></ItemName>
+						<ItemName><![CDATA[DesantnikovLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6892,7 +6892,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB7]]></ItemName>
+						<ItemName><![CDATA[Desantnikov]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6915,7 +6915,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB7]]></ItemName>
+						<ItemName><![CDATA[Desantnikov]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6925,7 +6925,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick7]]></ItemName>
+						<ItemName><![CDATA[DesantnikovPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6950,7 +6950,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop8]]></ItemName>
+						<ItemName><![CDATA[BrestskiyDrop]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6960,7 +6960,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick8]]></ItemName>
+						<ItemName><![CDATA[BrestskiyPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -6993,7 +6993,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop8]]></ItemName>
+						<ItemName><![CDATA[BrestskiyDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7017,7 +7017,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick8]]></ItemName>
+						<ItemName><![CDATA[BrestskiyPick]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7050,7 +7050,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB8]]></ItemName>
+						<ItemName><![CDATA[Brestskiy]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7060,7 +7060,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave8]]></ItemName>
+						<ItemName><![CDATA[BrestskiyLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7083,7 +7083,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB8]]></ItemName>
+						<ItemName><![CDATA[Brestskiy]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7093,7 +7093,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBLeave8]]></ItemName>
+						<ItemName><![CDATA[BrestskiyLeave]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7126,7 +7126,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB8]]></ItemName>
+						<ItemName><![CDATA[Brestskiy]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7149,7 +7149,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyB8]]></ItemName>
+						<ItemName><![CDATA[Brestskiy]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7159,7 +7159,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBPick8]]></ItemName>
+						<ItemName><![CDATA[BrestskiyPick]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7194,7 +7194,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop1]]></ItemName>
+						<ItemName><![CDATA[NarvskyaMetroDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7231,7 +7231,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop2]]></ItemName>
+						<ItemName><![CDATA[StachekDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7268,7 +7268,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop3]]></ItemName>
+						<ItemName><![CDATA[TrefolevaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7301,7 +7301,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop4]]></ItemName>
+						<ItemName><![CDATA[OgorodniyDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7338,7 +7338,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop]]></ItemName>
+						<ItemName><![CDATA[VozrozhdeniyaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7375,7 +7375,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop5]]></ItemName>
+						<ItemName><![CDATA[Leninskiy100Drop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7408,7 +7408,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop6]]></ItemName>
+						<ItemName><![CDATA[KotinaDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7445,7 +7445,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop7]]></ItemName>
+						<ItemName><![CDATA[DesantnikovDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7482,7 +7482,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[NarvskiyBDrop8]]></ItemName>
+						<ItemName><![CDATA[BrestskiyDrop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7519,7 +7519,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39BDrop]]></ItemName>
+						<ItemName><![CDATA[Leninskiy79Drop]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -7533,6 +7533,72 @@
 						<Point><X>-570</X><Y>-500</Y></Point>
 						<Point><X>-570</X><Y>-550</Y></Point>
 						<Point><X>-550</X><Y>-550</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1480763554386</Id>
+					<Name><![CDATA[connector161]]></Name>
+					<X>130</X><Y>125</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[kursovik]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[RimKor39]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Queue]]></ClassName>
+						<ItemName><![CDATA[outTimeout]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[kursovik]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[RimKor39Leave]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Sink]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>110</X><Y>0</Y></Point>
+					</Points>
+				</Connector>
+				<Connector>
+					<Id>1480763557517</Id>
+					<Name><![CDATA[connector219]]></Name>
+					<X>120</X><Y>125</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<SourceEmbeddedObjectReference>
+						<PackageName><![CDATA[kursovik]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[RimKor39]]></ItemName>
+					</SourceEmbeddedObjectReference>
+					<SourceConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Queue]]></ClassName>
+						<ItemName><![CDATA[outPreempted]]></ItemName>
+					</SourceConnectableItemReference>
+					<TargetEmbeddedObjectReference>
+						<PackageName><![CDATA[kursovik]]></PackageName>
+						<ClassName><![CDATA[Main]]></ClassName>
+						<ItemName><![CDATA[RimKor39Leave]]></ItemName>
+					</TargetEmbeddedObjectReference>
+					<TargetConnectableItemReference>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Sink]]></ClassName>
+						<ItemName><![CDATA[in]]></ItemName>
+					</TargetConnectableItemReference>
+					<Points>
+						<Point><X>0</X><Y>0</Y></Point>
+						<Point><X>120</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 			</Connectors>
@@ -8056,12 +8122,22 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[enableTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[timeout]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[20]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[enablePreemption]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
@@ -9251,7 +9327,7 @@
 						<Parameter>
 							<Name><![CDATA[delayTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[interval]]></Code>
+								<Code><![CDATA[delay]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
@@ -9282,7 +9358,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[interval=uniform(6,8)]]></Code>
+								<Code><![CDATA[delay=interval]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15462,7 +15538,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592200946</Id>
-					<Name><![CDATA[RizhskiyBPick]]></Name>
+					<Name><![CDATA[KronshtadskayaPick]]></Name>
 					<X>800</X><Y>800</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -15569,7 +15645,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592200974</Id>
-					<Name><![CDATA[RizhskiyBDrop]]></Name>
+					<Name><![CDATA[KronshtadskayaDrop]]></Name>
 					<X>670</X><Y>800</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -15926,7 +16002,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201040</Id>
-					<Name><![CDATA[RizhskiyB]]></Name>
+					<Name><![CDATA[Kronshtadskaya]]></Name>
 					<X>710</X><Y>880</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -16051,7 +16127,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201064</Id>
-					<Name><![CDATA[RizhskiyBLeave]]></Name>
+					<Name><![CDATA[KronshtadskayaLeave]]></Name>
 					<X>810</X><Y>880</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -16228,7 +16304,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201113</Id>
-					<Name><![CDATA[KurlyandBPick]]></Name>
+					<Name><![CDATA[KomsomolskayaPick]]></Name>
 					<X>800</X><Y>650</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -16335,7 +16411,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201138</Id>
-					<Name><![CDATA[KurlyandBDrop]]></Name>
+					<Name><![CDATA[KomsomolskayaDrop]]></Name>
 					<X>670</X><Y>650</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -16692,7 +16768,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201218</Id>
-					<Name><![CDATA[KurlyandB]]></Name>
+					<Name><![CDATA[Komsomolskaya]]></Name>
 					<X>710</X><Y>730</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -16817,7 +16893,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201238</Id>
-					<Name><![CDATA[sink22]]></Name>
+					<Name><![CDATA[KomsomolskayaLeave]]></Name>
 					<X>810</X><Y>730</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -16994,7 +17070,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201277</Id>
-					<Name><![CDATA[StaroPetergofBPick]]></Name>
+					<Name><![CDATA[KirovZavodMetroPick]]></Name>
 					<X>800</X><Y>500</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -17101,7 +17177,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201299</Id>
-					<Name><![CDATA[StaroPetergofBDrop]]></Name>
+					<Name><![CDATA[KirovZavodMetroDrop]]></Name>
 					<X>670</X><Y>500</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -17458,7 +17534,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201364</Id>
-					<Name><![CDATA[StaroPetergofB]]></Name>
+					<Name><![CDATA[KirovZavodMetro]]></Name>
 					<X>710</X><Y>580</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -17583,7 +17659,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201386</Id>
-					<Name><![CDATA[StaroPetergofBLeave]]></Name>
+					<Name><![CDATA[KirovZavodMetroLeave]]></Name>
 					<X>810</X><Y>580</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -17760,7 +17836,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201431</Id>
-					<Name><![CDATA[NarvskiyBPick]]></Name>
+					<Name><![CDATA[VozrozhdeniyaPick]]></Name>
 					<X>800</X><Y>350</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -17867,7 +17943,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201455</Id>
-					<Name><![CDATA[NarvskiyBDrop]]></Name>
+					<Name><![CDATA[VozrozhdeniyaDrop]]></Name>
 					<X>670</X><Y>350</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -18224,7 +18300,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201520</Id>
-					<Name><![CDATA[NarvskiyB]]></Name>
+					<Name><![CDATA[Vozrozhdeniya]]></Name>
 					<X>710</X><Y>430</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -18349,7 +18425,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592201540</Id>
-					<Name><![CDATA[NarvskiyBLeave]]></Name>
+					<Name><![CDATA[VozrozhdeniyaLeave]]></Name>
 					<X>810</X><Y>430</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -18526,7 +18602,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588397</Id>
-					<Name><![CDATA[RimKor53BPick]]></Name>
+					<Name><![CDATA[ZhukovaLeninskogoPick]]></Name>
 					<X>1100</X><Y>200</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -18633,7 +18709,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588423</Id>
-					<Name><![CDATA[RimKor53BDrop]]></Name>
+					<Name><![CDATA[ZhukovaLeninskogoDrop]]></Name>
 					<X>970</X><Y>200</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -18990,7 +19066,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588491</Id>
-					<Name><![CDATA[RimKor53B]]></Name>
+					<Name><![CDATA[ZhukovaLeninskogo]]></Name>
 					<X>1010</X><Y>280</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -19115,7 +19191,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588517</Id>
-					<Name><![CDATA[RimKor53BLeave]]></Name>
+					<Name><![CDATA[ZhukovaLeninskogoLeave]]></Name>
 					<X>1110</X><Y>280</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -19292,7 +19368,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588561</Id>
-					<Name><![CDATA[LermPrBPick]]></Name>
+					<Name><![CDATA[Zhukova32Pick]]></Name>
 					<X>1100</X><Y>350</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -19399,7 +19475,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588589</Id>
-					<Name><![CDATA[LermPrBDrop]]></Name>
+					<Name><![CDATA[Zhukova32Drop]]></Name>
 					<X>970</X><Y>350</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -19756,7 +19832,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588660</Id>
-					<Name><![CDATA[LermProspB]]></Name>
+					<Name><![CDATA[Zhukova32]]></Name>
 					<X>1010</X><Y>430</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -19881,7 +19957,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588683</Id>
-					<Name><![CDATA[LermProspBLeave]]></Name>
+					<Name><![CDATA[Zhukova32Leave]]></Name>
 					<X>1110</X><Y>430</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -20058,7 +20134,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588726</Id>
-					<Name><![CDATA[DekabristovBPick]]></Name>
+					<Name><![CDATA[Zhukova30Pick]]></Name>
 					<X>1100</X><Y>500</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -20165,7 +20241,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588753</Id>
-					<Name><![CDATA[DekabristovBDrop]]></Name>
+					<Name><![CDATA[Zhukova30Drop]]></Name>
 					<X>970</X><Y>500</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -20522,7 +20598,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588821</Id>
-					<Name><![CDATA[DekabristovB]]></Name>
+					<Name><![CDATA[Zhukova30]]></Name>
 					<X>1010</X><Y>580</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -20647,7 +20723,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588843</Id>
-					<Name><![CDATA[DekabristovBLeave]]></Name>
+					<Name><![CDATA[Zhukova30Leave]]></Name>
 					<X>1110</X><Y>580</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -20824,7 +20900,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588885</Id>
-					<Name><![CDATA[AlarchinBrBPick]]></Name>
+					<Name><![CDATA[KazakovaPick]]></Name>
 					<X>1100</X><Y>650</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -20931,7 +21007,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588911</Id>
-					<Name><![CDATA[AlarchinBrBDrop]]></Name>
+					<Name><![CDATA[KazakovaDrop]]></Name>
 					<X>970</X><Y>650</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -21288,7 +21364,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592588984</Id>
-					<Name><![CDATA[AlarchinBrB]]></Name>
+					<Name><![CDATA[Kazakova]]></Name>
 					<X>1010</X><Y>730</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -21413,7 +21489,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592589007</Id>
-					<Name><![CDATA[AlarchinBLeave]]></Name>
+					<Name><![CDATA[KazakovaLeave]]></Name>
 					<X>1110</X><Y>730</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -21590,7 +21666,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592589052</Id>
-					<Name><![CDATA[RepinaSqBPick]]></Name>
+					<Name><![CDATA[DorNaTuruhanskieOstrPick]]></Name>
 					<X>1100</X><Y>800</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -21697,7 +21773,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592589077</Id>
-					<Name><![CDATA[RepinaSqBDrop]]></Name>
+					<Name><![CDATA[DorNaTuruhanskieOstrDrop]]></Name>
 					<X>970</X><Y>800</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -22054,7 +22130,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592589152</Id>
-					<Name><![CDATA[RepinaSqB]]></Name>
+					<Name><![CDATA[DorNaTuruhanskieOstr]]></Name>
 					<X>1010</X><Y>880</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -22179,7 +22255,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592589174</Id>
-					<Name><![CDATA[RepinaSqBLeave]]></Name>
+					<Name><![CDATA[DorNaTuruhanskieOstrLeave]]></Name>
 					<X>1110</X><Y>880</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -22463,7 +22539,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480592837625</Id>
-					<Name><![CDATA[RimKor39BDrop]]></Name>
+					<Name><![CDATA[Leninskiy79Drop]]></Name>
 					<X>970</X><Y>100</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -22631,7 +22707,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758685321</Id>
-					<Name><![CDATA[NarvskiyBPick1]]></Name>
+					<Name><![CDATA[NarvskyaMetroPick]]></Name>
 					<X>500</X><Y>200</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -22738,7 +22814,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758685341</Id>
-					<Name><![CDATA[NarvskiyBDrop1]]></Name>
+					<Name><![CDATA[NarvskyaMetroDrop]]></Name>
 					<X>370</X><Y>200</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -22909,7 +22985,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758685372</Id>
-					<Name><![CDATA[RimKor53Src19]]></Name>
+					<Name><![CDATA[NarvskyaMetroSrc]]></Name>
 					<X>360</X><Y>290</Y>
 					<Label><X>-10</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -23095,7 +23171,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758685393</Id>
-					<Name><![CDATA[NarvskiyB1]]></Name>
+					<Name><![CDATA[NarvskyaMetro]]></Name>
 					<X>410</X><Y>280</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -23220,7 +23296,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758685414</Id>
-					<Name><![CDATA[NarvskiyBLeave1]]></Name>
+					<Name><![CDATA[NarvskyaMetroLeave]]></Name>
 					<X>510</X><Y>280</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -23397,7 +23473,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758700313</Id>
-					<Name><![CDATA[NarvskiyBPick2]]></Name>
+					<Name><![CDATA[StachekPick]]></Name>
 					<X>500</X><Y>50</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -23504,7 +23580,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758700333</Id>
-					<Name><![CDATA[NarvskiyBDrop2]]></Name>
+					<Name><![CDATA[StachekDrop]]></Name>
 					<X>370</X><Y>50</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -23861,7 +23937,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758700384</Id>
-					<Name><![CDATA[NarvskiyB2]]></Name>
+					<Name><![CDATA[Stachek]]></Name>
 					<X>410</X><Y>130</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -23986,7 +24062,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758700401</Id>
-					<Name><![CDATA[NarvskiyBLeave2]]></Name>
+					<Name><![CDATA[StachekLeave]]></Name>
 					<X>510</X><Y>130</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -24163,7 +24239,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758708650</Id>
-					<Name><![CDATA[NarvskiyBPick3]]></Name>
+					<Name><![CDATA[TrefolevaPick]]></Name>
 					<X>800</X><Y>50</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -24270,7 +24346,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758708673</Id>
-					<Name><![CDATA[NarvskiyBDrop3]]></Name>
+					<Name><![CDATA[TrefolevaDrop]]></Name>
 					<X>670</X><Y>50</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -24627,7 +24703,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758708737</Id>
-					<Name><![CDATA[NarvskiyB3]]></Name>
+					<Name><![CDATA[Trefoleva]]></Name>
 					<X>710</X><Y>130</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -24752,7 +24828,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758708760</Id>
-					<Name><![CDATA[NarvskiyBLeave3]]></Name>
+					<Name><![CDATA[TrefolevaLeave]]></Name>
 					<X>810</X><Y>130</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -24929,7 +25005,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758713257</Id>
-					<Name><![CDATA[NarvskiyBPick4]]></Name>
+					<Name><![CDATA[OgorodniyPick]]></Name>
 					<X>800</X><Y>200</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -25036,7 +25112,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758713277</Id>
-					<Name><![CDATA[NarvskiyBDrop4]]></Name>
+					<Name><![CDATA[OgorodniyDrop]]></Name>
 					<X>670</X><Y>200</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -25393,7 +25469,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758713341</Id>
-					<Name><![CDATA[NarvskiyB4]]></Name>
+					<Name><![CDATA[Ogorodniy]]></Name>
 					<X>710</X><Y>280</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -25518,7 +25594,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758713359</Id>
-					<Name><![CDATA[NarvskiyBLeave4]]></Name>
+					<Name><![CDATA[OgorodniyLeave]]></Name>
 					<X>810</X><Y>280</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -25695,7 +25771,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758776335</Id>
-					<Name><![CDATA[NarvskiyBPick5]]></Name>
+					<Name><![CDATA[Leninskiy100Pick]]></Name>
 					<X>1400</X><Y>200</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -25802,7 +25878,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758776355</Id>
-					<Name><![CDATA[NarvskiyBDrop5]]></Name>
+					<Name><![CDATA[Leninskiy100Drop]]></Name>
 					<X>1270</X><Y>200</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -26159,7 +26235,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758776410</Id>
-					<Name><![CDATA[NarvskiyB5]]></Name>
+					<Name><![CDATA[Leninskiy100]]></Name>
 					<X>1310</X><Y>280</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -26284,7 +26360,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758776428</Id>
-					<Name><![CDATA[NarvskiyBLeave5]]></Name>
+					<Name><![CDATA[Leninskiy100Leave]]></Name>
 					<X>1410</X><Y>280</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -26461,7 +26537,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758776462</Id>
-					<Name><![CDATA[NarvskiyBPick6]]></Name>
+					<Name><![CDATA[KotinaPick]]></Name>
 					<X>1400</X><Y>350</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -26568,7 +26644,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758776481</Id>
-					<Name><![CDATA[NarvskiyBDrop6]]></Name>
+					<Name><![CDATA[KotinaDrop]]></Name>
 					<X>1270</X><Y>350</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -26925,7 +27001,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758776534</Id>
-					<Name><![CDATA[NarvskiyB6]]></Name>
+					<Name><![CDATA[Kotina]]></Name>
 					<X>1310</X><Y>430</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -27050,7 +27126,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758776553</Id>
-					<Name><![CDATA[NarvskiyBLeave6]]></Name>
+					<Name><![CDATA[KotinaLeave]]></Name>
 					<X>1410</X><Y>430</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -27227,7 +27303,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758785876</Id>
-					<Name><![CDATA[NarvskiyBPick7]]></Name>
+					<Name><![CDATA[DesantnikovPick]]></Name>
 					<X>1400</X><Y>500</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -27334,7 +27410,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758785896</Id>
-					<Name><![CDATA[NarvskiyBDrop7]]></Name>
+					<Name><![CDATA[DesantnikovDrop]]></Name>
 					<X>1270</X><Y>500</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -27691,7 +27767,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758785949</Id>
-					<Name><![CDATA[NarvskiyB7]]></Name>
+					<Name><![CDATA[Desantnikov]]></Name>
 					<X>1310</X><Y>580</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -27816,7 +27892,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758785969</Id>
-					<Name><![CDATA[NarvskiyBLeave7]]></Name>
+					<Name><![CDATA[DesantnikovLeave]]></Name>
 					<X>1410</X><Y>580</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -27993,7 +28069,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758786002</Id>
-					<Name><![CDATA[NarvskiyBPick8]]></Name>
+					<Name><![CDATA[BrestskiyPick]]></Name>
 					<X>1400</X><Y>650</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -28100,7 +28176,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758786023</Id>
-					<Name><![CDATA[NarvskiyBDrop8]]></Name>
+					<Name><![CDATA[BrestskiyDrop]]></Name>
 					<X>1270</X><Y>650</Y>
 					<Label><X>-15</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -28457,7 +28533,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758786077</Id>
-					<Name><![CDATA[NarvskiyB8]]></Name>
+					<Name><![CDATA[Brestskiy]]></Name>
 					<X>1310</X><Y>730</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -28582,7 +28658,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480758786095</Id>
-					<Name><![CDATA[NarvskiyBLeave8]]></Name>
+					<Name><![CDATA[BrestskiyLeave]]></Name>
 					<X>1410</X><Y>730</Y>
 					<Label><X>-15</X><Y>-20</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -28712,6 +28788,76 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+						</Parameter>
+					</Parameters>
+					<ReplicationFlag>false</ReplicationFlag>
+					<Replication Class="CodeValue">
+						<Code><![CDATA[100]]></Code>
+					</Replication>
+					<CollectionType>ARRAY_LIST_BASED</CollectionType>
+					<InitialSpeedCode Class="CodeUnitValue">
+						<Code><![CDATA[10]]></Code>
+						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
+					</InitialSpeedCode>
+					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
+					<XCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</XCode>
+					<YCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</YCode>
+					<ZCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ZCode>
+					<ColumnCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</ColumnCode>
+					<RowCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</RowCode>
+					<LatitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LatitudeCode>
+					<LongitudeCode Class="CodeValue">
+						<Code><![CDATA[0]]></Code>
+					</LongitudeCode>
+					<LocationNameCode Class="CodeValue">
+						<Code><![CDATA[""]]></Code>
+					</LocationNameCode>
+					<InitializationType>SPECIFIED_NUMBER</InitializationType>
+					<InitializationDatabaseTableQuery>
+						<TableReference>
+						</TableReference>
+					</InitializationDatabaseTableQuery>
+					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
+					<QuantityColumn>
+					</QuantityColumn>
+				</EmbeddedObject>
+				<EmbeddedObject>
+					<Id>1480763516868</Id>
+					<Name><![CDATA[RimKor39Leave]]></Name>
+					<X>240</X><Y>115</Y>
+					<Label><X>-15</X><Y>-20</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<ActiveObjectClass>
+						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+						<ClassName><![CDATA[Sink]]></ClassName>
+					</ActiveObjectClass>
+					<GenericParameterSubstitute>
+						<GenericParameterSubstituteReference>
+							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
+							<ClassName><![CDATA[Sink]]></ClassName>
+							<ItemName><![CDATA[1412336242929]]></ItemName>
+						</GenericParameterSubstituteReference>
+					</GenericParameterSubstitute>
+					<Parameters>
+						<Parameter>
+							<Name><![CDATA[onEnter]]></Name>
+						</Parameter>
+						<Parameter>
+							<Name><![CDATA[destroyEntity]]></Name>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
