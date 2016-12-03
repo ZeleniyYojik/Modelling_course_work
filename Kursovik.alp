@@ -173,6 +173,18 @@
 						</InitialValue>
 					</Properties>
 				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1480796045691</Id>
+					<Name><![CDATA[variable1]]></Name>
+					<X>710</X><Y>-20</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+					</Properties>
+				</Variable>
 				<Variable Class="CollectionVariable">
 					<Id>1480788641512</Id>
 					<Name><![CDATA[Busses]]></Name>
@@ -8249,17 +8261,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -8665,7 +8686,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -9038,17 +9059,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -9224,7 +9254,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -9847,7 +9877,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -10220,17 +10250,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -10299,7 +10338,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -10696,7 +10735,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -11069,17 +11108,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -11148,7 +11196,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -11545,7 +11593,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -11918,17 +11966,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -11997,7 +12054,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -12394,7 +12451,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -12767,17 +12824,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -12846,7 +12912,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -13243,7 +13309,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -13616,17 +13682,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -13695,7 +13770,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -14092,7 +14167,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -14465,17 +14540,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -14544,7 +14628,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -14941,7 +15025,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15314,17 +15398,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -15393,7 +15486,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15790,7 +15883,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -16163,17 +16256,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -16242,7 +16344,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -16639,7 +16741,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -17011,15 +17113,27 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -17088,7 +17202,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -17485,7 +17599,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -17857,15 +17971,27 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -17934,7 +18060,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -18331,7 +18457,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -18703,15 +18829,27 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -18780,7 +18918,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -19177,7 +19315,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -19549,15 +19687,27 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -19626,7 +19776,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -20023,7 +20173,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -20396,17 +20546,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -20475,7 +20634,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -20872,7 +21031,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -21245,17 +21404,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -21324,7 +21492,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -21721,7 +21889,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -22094,17 +22262,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -22173,7 +22350,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -22570,7 +22747,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -22943,17 +23120,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -23022,7 +23208,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -23419,7 +23605,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -23792,17 +23978,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -23871,7 +24066,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -24262,7 +24457,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -24552,7 +24747,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -24925,17 +25120,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -25004,7 +25208,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -25401,7 +25605,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -25774,17 +25978,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -25853,7 +26066,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -26250,7 +26463,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -26622,15 +26835,27 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -26699,7 +26924,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -27096,7 +27321,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -27468,15 +27693,27 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -27545,7 +27782,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -27942,7 +28179,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -28315,17 +28552,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -28394,7 +28640,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -28791,7 +29037,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -29164,17 +29410,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -29243,7 +29498,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -29640,7 +29895,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -30013,17 +30268,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -30092,7 +30356,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -30489,7 +30753,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -30862,17 +31126,26 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitTimeout]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExitPreempted]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onRemove]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/60000;agent.waitTime.update()]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -30941,7 +31214,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -31121,7 +31394,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;variable1=agent.alive;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -31695,7 +31968,7 @@
 					<FreezeXAxis>false</FreezeXAxis>
 					<HorizontalAxisExpression><![CDATA[1]]></HorizontalAxisExpression>
 					<VerticalAxisExpression><![CDATA[alive]]></VerticalAxisExpression>
-					<SamplesToKeep>100</SamplesToKeep>
+					<SamplesToKeep>1</SamplesToKeep>
 				</DataSet>
 			</AnalysisData>
 			<AgentLinks>
