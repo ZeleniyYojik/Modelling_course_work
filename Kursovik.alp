@@ -109,7 +109,7 @@
 					<Properties SaveInSnapshot="true" Constant="true" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[double]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[148/busCount]]></Code>
+							<Code><![CDATA[121/busCount]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -157,6 +157,36 @@
 							<Code><![CDATA[0]]></Code>
 						</InitialValue>
 					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1480771511646</Id>
+					<Name><![CDATA[variable]]></Name>
+					<X>400</X><Y>10</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[double]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[date().getTime()-1480366800000L]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="CollectionVariable">
+					<Id>1480788641512</Id>
+					<Name><![CDATA[Busses]]></Name>
+					<X>520</X><Y>10</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" AccessType="public" StaticVariable="false">
+						<CollectionClass><![CDATA[ArrayList]]></CollectionClass>
+						<ElementClass><![CDATA[Bus]]></ElementClass>
+						<ValueElementClass><![CDATA[String]]></ValueElementClass>
+					</Properties>
+
 				</Variable>
 			</Variables>
 			<Connectors>
@@ -5127,13 +5157,13 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>90</X><Y>0</Y></Point>
+						<Point><X>150</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
 					<Id>1480592920403</Id>
 					<Name><![CDATA[connector162]]></Name>
-					<X>1140</X><Y>120</Y>
+					<X>1200</X><Y>120</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -5160,11 +5190,11 @@
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>100</X><Y>0</Y></Point>
-						<Point><X>100</X><Y>-100</Y></Point>
-						<Point><X>-920</X><Y>-100</Y></Point>
-						<Point><X>-920</X><Y>-50</Y></Point>
-						<Point><X>-910</X><Y>-50</Y></Point>
+						<Point><X>40</X><Y>0</Y></Point>
+						<Point><X>40</X><Y>-100</Y></Point>
+						<Point><X>-980</X><Y>-100</Y></Point>
+						<Point><X>-980</X><Y>-50</Y></Point>
+						<Point><X>-970</X><Y>-50</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -7728,9 +7758,6 @@
 									</GenericParameterSubstitute>
 									<Parameters>
 										<Parameter>
-											<Name><![CDATA[amount]]></Name>
-										</Parameter>
-										<Parameter>
 											<Name><![CDATA[capacity]]></Name>
 										</Parameter>
 									</Parameters>
@@ -7848,6 +7875,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[Busses.add(agent)]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onDiscard]]></Name>
@@ -8246,11 +8276,14 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.contents().size()<container.capacity]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -8264,12 +8297,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -8347,14 +8386,20 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[pickupType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.QUANTITY]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.contents().size()<container.capacity]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -8368,12 +8413,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -9446,11 +9497,14 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.contents().size()<container.capacity]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -9464,12 +9518,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -10216,7 +10276,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -10230,12 +10290,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -10982,7 +11048,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -10996,12 +11062,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -11748,7 +11820,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -11762,12 +11834,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -12514,7 +12592,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -12528,12 +12606,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -13280,7 +13364,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -13294,12 +13378,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -14046,7 +14136,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -14060,12 +14150,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -14812,7 +14908,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -14826,12 +14922,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -15578,7 +15680,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -15592,12 +15694,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -16344,7 +16452,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -16358,12 +16466,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -17110,7 +17224,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -17124,12 +17238,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -17876,7 +17996,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -17890,12 +18010,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -18642,7 +18768,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -18656,12 +18782,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -19408,7 +19540,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -19422,12 +19554,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -20174,7 +20312,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -20188,12 +20326,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -20940,7 +21084,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -20954,12 +21098,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -21706,7 +21856,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -21720,12 +21870,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -22433,7 +22589,7 @@
 				<EmbeddedObject>
 					<Id>1480592771455</Id>
 					<Name><![CDATA[ServiceDelay1]]></Name>
-					<X>1100</X><Y>100</Y>
+					<X>1160</X><Y>100</Y>
 					<Label><X>-5</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -22566,6 +22722,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[dropoffType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.ALL]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[condition]]></Name>
@@ -22747,7 +22906,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -22761,12 +22920,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -23513,7 +23678,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -23527,12 +23692,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -24279,7 +24450,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -24293,12 +24464,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -25045,7 +25222,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -25059,12 +25236,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -25811,7 +25994,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -25825,12 +26008,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -26577,7 +26766,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -26591,12 +26780,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -27343,7 +27538,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -27357,12 +27552,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -28109,7 +28310,7 @@
 						<Parameter>
 							<Name><![CDATA[quantity]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.amount]]></Code>
+								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -28123,12 +28324,18 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=container.contents().size()]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onPickup]]></Name>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+							</Value>
 						</Parameter>
 					</Parameters>
 					<ReplicationFlag>false</ReplicationFlag>
@@ -28947,6 +29154,109 @@
 					<Longitude>0.0</Longitude>
 				</EmbeddedObjectPresentation>
 			</Shapes>
+			<Charts>
+    			<BarChart>
+					<Id>1480788763836</Id>
+					<Name><![CDATA[chart]]></Name>
+					<X>1690</X><Y>90</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1480838400000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[16]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>600</Width>
+					<Height>400</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>30</YOffset>
+						<Width>520</Width>
+						<Height>320</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>30</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<Persistent>true</Persistent>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(0).count]]></Expression>
+					<Color>-10496</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[bus1]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(1).count]]></Expression>
+					<Color>-6632142</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[bus2]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(2).count]]></Expression>
+					<Color>-14774017</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[bus3]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(3).count]]></Expression>
+					<Color>-3137392</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[bus4]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(4).count]]></Expression>
+					<Color>-32944</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[bus5]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(5).count]]></Expression>
+					<Color>-13447886</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[bus6]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(6).count]]></Expression>
+					<Color>-9404272</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[bus7]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(7).count]]></Expression>
+					<Color>-7667573</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[bus8]]></Title>
+					</DataItem>
+					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
+					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
+					<ScaleType>AUTO</ScaleType>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+    			</BarChart>
+			</Charts>
 
 		</ActiveObjectClass>
 		<!--   =========   Active Object Class   ========  -->
@@ -29035,30 +29345,35 @@
 			</ScaleRuler>
 			<ConnectionsId>1480532367217</ConnectionsId>
 			<Variables>
-				<Variable Class="Parameter">
-					<Id>1480532367222</Id>
-					<Name><![CDATA[amount]]></Name>
-					<X>50</X><Y>50</Y>
+				<Variable Class="PlainVariable">
+					<Id>1480772915263</Id>
+					<Name><![CDATA[size]]></Name>
+					<X>50</X><Y>210</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
-					<Properties SaveInSnapshot="true" ModificatorType="STATIC">
-						<Type><![CDATA[int]]></Type>
-						<UnitType><![CDATA[NONE]]></UnitType>
-						<NumericType><![CDATA[double]]></NumericType>
-						<SdArray>false</SdArray>
-						<DefaultValue Class="CodeValue">
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
 							<Code><![CDATA[0]]></Code>
-						</DefaultValue>
-						<ParameterEditor>
-							<Id>0</Id>
-							<EditorContolType>TEXT_BOX</EditorContolType>
-							<MinSliderValue><![CDATA[0]]></MinSliderValue>
-							<MaxSliderValue><![CDATA[100]]></MaxSliderValue>
-							<DelimeterType>NO_DELIMETER</DelimeterType>
-						</ParameterEditor>
-					</Properties>                 
+						</InitialValue>
+					</Properties>
+				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1480786982859</Id>
+					<Name><![CDATA[count]]></Name>
+					<X>50</X><Y>180</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
 				</Variable>
 				<Variable Class="Parameter">
 					<Id>1480532367223</Id>
@@ -29086,6 +29401,32 @@
 					</Properties>                 
 				</Variable>
 			</Variables>
+			<AnalysisData>
+    			<DataSet>
+					<Id>1480787016913</Id>
+					<Name><![CDATA[dataset]]></Name>
+					<X>170</X><Y>190</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1480838400000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</RecurrenceCode>
+					<FreezeXAxis>false</FreezeXAxis>
+					<HorizontalAxisExpression><![CDATA[1]]></HorizontalAxisExpression>
+					<VerticalAxisExpression><![CDATA[count]]></VerticalAxisExpression>
+					<SamplesToKeep>1</SamplesToKeep>
+				</DataSet>
+			</AnalysisData>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1480532367217</Id>
@@ -29240,11 +29581,11 @@ getPresentation().setPresentable( getEngine().getRoot() );]]></ActionCode>
 				<UIProperty Name="Toolbar View" Value="false"/>
 			</PresentationProperties>
 			<ModelTimeProperties>
-				<StopOption><![CDATA[Never]]></StopOption>
-				<InitialDate><![CDATA[1480377600000]]></InitialDate>	
+				<StopOption><![CDATA[Stop at specified date]]></StopOption>
+				<InitialDate><![CDATA[1480396800000]]></InitialDate>	
 				<InitialTime><![CDATA[0.0]]></InitialTime>	
-				<FinalDate><![CDATA[1482969600000]]></FinalDate>	
-				<FinalTime><![CDATA[100.0]]></FinalTime>	
+				<FinalDate><![CDATA[1480466700000]]></FinalDate>	
+				<FinalTime><![CDATA[1165.0]]></FinalTime>	
 			</ModelTimeProperties>
 		</SimulationExperiment>	
 	</Experiments>
