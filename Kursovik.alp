@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="7.3.6.201610042019" AlpVersion="7.3.3">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="7.3.6.201610041917" AlpVersion="7.3.3">
 <Model>
 	<Id>1480445817838</Id>
 	<Name><![CDATA[Kursovik]]></Name>
@@ -191,74 +191,6 @@
 			</Variables>
 			<Connectors>
 				<Connector>
-					<Id>1480507407409</Id>
-					<Name><![CDATA[connector1]]></Name>
-					<X>100</X><Y>135</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[kursovik]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Queue]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[kursovik]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39Src]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Source]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-20</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1480507436066</Id>
-					<Name><![CDATA[connector3]]></Name>
-					<X>140</X><Y>135</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[kursovik]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Queue]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[kursovik]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39Pick]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Pickup]]></ClassName>
-						<ItemName><![CDATA[inPickup]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>75</X><Y>0</Y></Point>
-						<Point><X>75</X><Y>-55</Y></Point>
-						<Point><X>100</X><Y>-55</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
 					<Id>1480534451480</Id>
 					<Name><![CDATA[connector6]]></Name>
 					<X>120</X><Y>220</Y>
@@ -336,7 +268,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53]]></ItemName>
+						<ItemName><![CDATA[RSLigovo]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -381,7 +313,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53]]></ItemName>
+						<ItemName><![CDATA[RSLigovo]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -414,7 +346,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53]]></ItemName>
+						<ItemName><![CDATA[RSLigovo]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -438,7 +370,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor53]]></ItemName>
+						<ItemName><![CDATA[RSLigovo]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -581,49 +513,16 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39Pick]]></ItemName>
+						<ItemName><![CDATA[delay1]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Pickup]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>40</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1480535058622</Id>
-					<Name><![CDATA[connector14]]></Name>
-					<X>300</X><Y>70</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[kursovik]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[delay1]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
 						<ClassName><![CDATA[Delay]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[kursovik]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39Pick]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Pickup]]></ClassName>
-						<ItemName><![CDATA[out]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
 						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>-30</X><Y>0</Y></Point>
+						<Point><X>110</X><Y>0</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -741,7 +640,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermProsp]]></ItemName>
+						<ItemName><![CDATA[PartGerm]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -786,7 +685,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermProsp]]></ItemName>
+						<ItemName><![CDATA[PartGerm]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -819,7 +718,7 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermProsp]]></ItemName>
+						<ItemName><![CDATA[PartGerm]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -842,7 +741,7 @@
 					<SourceEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[LermProsp]]></ItemName>
+						<ItemName><![CDATA[PartGerm]]></ItemName>
 					</SourceEmbeddedObjectReference>
 					<SourceConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
@@ -5181,11 +5080,11 @@
 					<TargetEmbeddedObjectReference>
 						<PackageName><![CDATA[kursovik]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39Pick]]></ItemName>
+						<ItemName><![CDATA[delay1]]></ItemName>
 					</TargetEmbeddedObjectReference>
 					<TargetConnectableItemReference>
 						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Pickup]]></ClassName>
+						<ClassName><![CDATA[Delay]]></ClassName>
 						<ItemName><![CDATA[in]]></ItemName>
 					</TargetConnectableItemReference>
 					<Points>
@@ -5193,8 +5092,8 @@
 						<Point><X>40</X><Y>0</Y></Point>
 						<Point><X>40</X><Y>-100</Y></Point>
 						<Point><X>-980</X><Y>-100</Y></Point>
-						<Point><X>-980</X><Y>-50</Y></Point>
-						<Point><X>-970</X><Y>-50</Y></Point>
+						<Point><X>-940</X><Y>-70</Y></Point>
+						<Point><X>-900</X><Y>-50</Y></Point>
 					</Points>
 				</Connector>
 				<Connector>
@@ -7565,72 +7464,6 @@
 						<Point><X>-550</X><Y>-550</Y></Point>
 					</Points>
 				</Connector>
-				<Connector>
-					<Id>1480763554386</Id>
-					<Name><![CDATA[connector161]]></Name>
-					<X>130</X><Y>125</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[kursovik]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Queue]]></ClassName>
-						<ItemName><![CDATA[outTimeout]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[kursovik]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39Leave]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Sink]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>110</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
-				<Connector>
-					<Id>1480763557517</Id>
-					<Name><![CDATA[connector219]]></Name>
-					<X>120</X><Y>125</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<SourceEmbeddedObjectReference>
-						<PackageName><![CDATA[kursovik]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39]]></ItemName>
-					</SourceEmbeddedObjectReference>
-					<SourceConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Queue]]></ClassName>
-						<ItemName><![CDATA[outPreempted]]></ItemName>
-					</SourceConnectableItemReference>
-					<TargetEmbeddedObjectReference>
-						<PackageName><![CDATA[kursovik]]></PackageName>
-						<ClassName><![CDATA[Main]]></ClassName>
-						<ItemName><![CDATA[RimKor39Leave]]></ItemName>
-					</TargetEmbeddedObjectReference>
-					<TargetConnectableItemReference>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Sink]]></ClassName>
-						<ItemName><![CDATA[in]]></ItemName>
-					</TargetConnectableItemReference>
-					<Points>
-						<Point><X>0</X><Y>0</Y></Point>
-						<Point><X>120</X><Y>0</Y></Point>
-					</Points>
-				</Connector>
 			</Connectors>
 			<Functions>
 				<Function AccessType="default" StaticFunction="false">
@@ -7646,6 +7479,634 @@
 					<Body><![CDATA[return uniform(1,2);]]></Body>
 				</Function>
 			</Functions>
+			<CustomDistributions>
+				<CustomDistribution>
+					<Id>1480806178783</Id>
+					<Name><![CDATA[partGermSrc]]></Name>
+					<X>-70</X><Y>440</Y>
+					<Label><X>15</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<InterpolationMethod>LINEAR</InterpolationMethod>
+					<Type>CONTINUOUS</Type>
+					<DefinitionType>PDF</DefinitionType>
+					<Static>false</Static>
+					<LoadFromDatabase><![CDATA[false]]></LoadFromDatabase>
+					<RangesQuery>
+					<TableReference>
+					</TableReference>
+						<StartColumnReference>
+						</StartColumnReference>
+						<EndColumnReference>
+						</EndColumnReference>
+						<NumberOfObservationColumnReference>
+						</NumberOfObservationColumnReference>
+					</RangesQuery>
+					<FrequencyQuery>
+					<TableReference>
+					</TableReference>
+						<ValueColumnReference>
+						</ValueColumnReference>
+						<WeightColumnReference>
+						</WeightColumnReference>
+					</FrequencyQuery>
+					<SampleQuery>
+					<TableReference>
+					</TableReference>
+						<ValueColumnReference>
+						</ValueColumnReference>
+					</SampleQuery>
+					<OptionQuery>
+					<TableReference>
+					</TableReference>
+						<OptionColumnReference>
+						</OptionColumnReference>
+						<NumberOfObservationColumnReference>
+						</NumberOfObservationColumnReference>
+					</OptionQuery>					
+					<Argument><![CDATA[0.217361111]]></Argument>
+					<Argument><![CDATA[0.227777778]]></Argument>
+					<Argument><![CDATA[0.238194444]]></Argument>
+					<Argument><![CDATA[0.248611111]]></Argument>
+					<Argument><![CDATA[0.259722222]]></Argument>
+					<Argument><![CDATA[0.26875]]></Argument>
+					<Argument><![CDATA[0.286111111]]></Argument>
+					<Argument><![CDATA[0.290972222]]></Argument>
+					<Argument><![CDATA[0.306944444]]></Argument>
+					<Argument><![CDATA[0.313888889]]></Argument>
+					<Argument><![CDATA[0.320833333]]></Argument>
+					<Argument><![CDATA[0.327777778]]></Argument>
+					<Argument><![CDATA[0.334722222]]></Argument>
+					<Argument><![CDATA[0.341666667]]></Argument>
+					<Argument><![CDATA[0.349305556]]></Argument>
+					<Argument><![CDATA[0.361805556]]></Argument>
+					<Argument><![CDATA[0.399305556]]></Argument>
+					<Argument><![CDATA[0.423611111]]></Argument>
+					<Argument><![CDATA[0.434722222]]></Argument>
+					<Argument><![CDATA[0.440277778]]></Argument>
+					<Argument><![CDATA[0.459027778]]></Argument>
+					<Argument><![CDATA[0.464583333]]></Argument>
+					<Argument><![CDATA[0.474305556]]></Argument>
+					<Argument><![CDATA[0.477083333]]></Argument>
+					<Argument><![CDATA[0.480555556]]></Argument>
+					<Argument><![CDATA[0.497222222]]></Argument>
+					<Argument><![CDATA[0.500694444]]></Argument>
+					<Argument><![CDATA[0.529861111]]></Argument>
+					<Argument><![CDATA[0.534027778]]></Argument>
+					<Argument><![CDATA[0.554861111]]></Argument>
+					<Argument><![CDATA[0.565972222]]></Argument>
+					<Argument><![CDATA[0.571527778]]></Argument>
+					<Argument><![CDATA[0.575]]></Argument>
+					<Argument><![CDATA[0.585416667]]></Argument>
+					<Argument><![CDATA[0.588888889]]></Argument>
+					<Argument><![CDATA[0.593055556]]></Argument>
+					<Argument><![CDATA[0.614583333]]></Argument>
+					<Argument><![CDATA[0.636111111]]></Argument>
+					<Argument><![CDATA[0.651388889]]></Argument>
+					<Argument><![CDATA[0.625]]></Argument>
+					<Argument><![CDATA[0.654861111]]></Argument>
+					<Argument><![CDATA[0.663194444]]></Argument>
+					<Argument><![CDATA[0.675694444]]></Argument>
+					<Argument><![CDATA[0.680555556]]></Argument>
+					<Argument><![CDATA[0.690277778]]></Argument>
+					<Argument><![CDATA[0.704166667]]></Argument>
+					<Argument><![CDATA[0.713888889]]></Argument>
+					<Argument><![CDATA[0.73125]]></Argument>
+					<Argument><![CDATA[0.736805556]]></Argument>
+					<Argument><![CDATA[0.761805556]]></Argument>
+					<Argument><![CDATA[0.764583333]]></Argument>
+					<Argument><![CDATA[0.781944444]]></Argument>
+					<Argument><![CDATA[0.804861111]]></Argument>
+					<Argument><![CDATA[0.85625]]></Argument>
+					<Argument><![CDATA[0.861805556]]></Argument>
+					<Argument><![CDATA[0.872222222]]></Argument>
+					<Argument><![CDATA[0.872916667]]></Argument>
+					<Argument><![CDATA[0.879861111]]></Argument>
+					<Argument><![CDATA[0.89375]]></Argument>
+					<Argument><![CDATA[0.896527778]]></Argument>
+					<Argument><![CDATA[0.900694444]]></Argument>
+					<Argument><![CDATA[0.932638889]]></Argument>
+					<Argument><![CDATA[0.948611111]]></Argument>
+					<Argument><![CDATA[0.959027778]]></Argument>
+					<Argument><![CDATA[0.982638889]]></Argument>
+					<Argument><![CDATA[0.990277778]]></Argument>
+					<Value><![CDATA[0.021276596]]></Value>
+					<Value><![CDATA[0.007092199]]></Value>
+					<Value><![CDATA[0.014184397]]></Value>
+					<Value><![CDATA[0.010638298]]></Value>
+					<Value><![CDATA[0.028368794]]></Value>
+					<Value><![CDATA[0.014184397]]></Value>
+					<Value><![CDATA[0.021276596]]></Value>
+					<Value><![CDATA[0.010638298]]></Value>
+					<Value><![CDATA[0.010638298]]></Value>
+					<Value><![CDATA[0.017730496]]></Value>
+					<Value><![CDATA[0.028368794]]></Value>
+					<Value><![CDATA[0.017730496]]></Value>
+					<Value><![CDATA[0.007092199]]></Value>
+					<Value><![CDATA[0.014184397]]></Value>
+					<Value><![CDATA[0.035460993]]></Value>
+					<Value><![CDATA[0.021276596]]></Value>
+					<Value><![CDATA[0.031914894]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.010638298]]></Value>
+					<Value><![CDATA[0.042553191]]></Value>
+					<Value><![CDATA[0.007092199]]></Value>
+					<Value><![CDATA[0.003546099]]></Value>
+					<Value><![CDATA[0.042553191]]></Value>
+					<Value><![CDATA[0.014184397]]></Value>
+					<Value><![CDATA[0.017730496]]></Value>
+					<Value><![CDATA[0.028368794]]></Value>
+					<Value><![CDATA[0.035460993]]></Value>
+					<Value><![CDATA[0.007092199]]></Value>
+					<Value><![CDATA[0.014184397]]></Value>
+					<Value><![CDATA[0.010638298]]></Value>
+					<Value><![CDATA[0.003546099]]></Value>
+					<Value><![CDATA[0.010638298]]></Value>
+					<Value><![CDATA[0.014184397]]></Value>
+					<Value><![CDATA[0.021276596]]></Value>
+					<Value><![CDATA[0.021276596]]></Value>
+					<Value><![CDATA[0.031914894]]></Value>
+					<Value><![CDATA[0.053191489]]></Value>
+					<Value><![CDATA[0.021276596]]></Value>
+					<Value><![CDATA[0.014184397]]></Value>
+					<Value><![CDATA[0.014184397]]></Value>
+					<Value><![CDATA[0.024822695]]></Value>
+					<Value><![CDATA[0.007092199]]></Value>
+					<Value><![CDATA[0.003546099]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.003546099]]></Value>
+					<Value><![CDATA[0.017730496]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.070921986]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.017730496]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.067375887]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.003546099]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.010638298]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.021276596]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.0]]></Value>
+					<Value><![CDATA[0.0]]></Value>					
+					<OptionListID><![CDATA[0]]></OptionListID>
+					<OptionValues>				
+					</OptionValues>
+					<Argument><![CDATA[0.217361111]]></Argument>
+					<Argument><![CDATA[0.227777778]]></Argument>
+					<Argument><![CDATA[0.238194444]]></Argument>
+					<Argument><![CDATA[0.248611111]]></Argument>
+					<Argument><![CDATA[0.259722222]]></Argument>
+					<Argument><![CDATA[0.26875]]></Argument>
+					<Argument><![CDATA[0.286111111]]></Argument>
+					<Argument><![CDATA[0.290972222]]></Argument>
+					<Argument><![CDATA[0.306944444]]></Argument>
+					<Argument><![CDATA[0.313888889]]></Argument>
+					<Argument><![CDATA[0.320833333]]></Argument>
+					<Argument><![CDATA[0.327777778]]></Argument>
+					<Argument><![CDATA[0.334722222]]></Argument>
+					<Argument><![CDATA[0.341666667]]></Argument>
+					<Argument><![CDATA[0.349305556]]></Argument>
+					<Argument><![CDATA[0.361805556]]></Argument>
+					<Argument><![CDATA[0.399305556]]></Argument>
+					<Argument><![CDATA[0.423611111]]></Argument>
+					<Argument><![CDATA[0.434722222]]></Argument>
+					<Argument><![CDATA[0.440277778]]></Argument>
+					<Argument><![CDATA[0.459027778]]></Argument>
+					<Argument><![CDATA[0.464583333]]></Argument>
+					<Argument><![CDATA[0.474305556]]></Argument>
+					<Argument><![CDATA[0.477083333]]></Argument>
+					<Argument><![CDATA[0.480555556]]></Argument>
+					<Argument><![CDATA[0.497222222]]></Argument>
+					<Argument><![CDATA[0.500694444]]></Argument>
+					<Argument><![CDATA[0.529861111]]></Argument>
+					<Argument><![CDATA[0.534027778]]></Argument>
+					<Argument><![CDATA[0.554861111]]></Argument>
+					<Argument><![CDATA[0.565972222]]></Argument>
+					<Argument><![CDATA[0.571527778]]></Argument>
+					<Argument><![CDATA[0.575]]></Argument>
+					<Argument><![CDATA[0.585416667]]></Argument>
+					<Argument><![CDATA[0.588888889]]></Argument>
+					<Argument><![CDATA[0.593055556]]></Argument>
+					<Argument><![CDATA[0.614583333]]></Argument>
+					<Argument><![CDATA[0.636111111]]></Argument>
+					<Argument><![CDATA[0.651388889]]></Argument>
+					<Argument><![CDATA[0.625]]></Argument>
+					<Argument><![CDATA[0.654861111]]></Argument>
+					<Argument><![CDATA[0.663194444]]></Argument>
+					<Argument><![CDATA[0.675694444]]></Argument>
+					<Argument><![CDATA[0.680555556]]></Argument>
+					<Argument><![CDATA[0.690277778]]></Argument>
+					<Argument><![CDATA[0.704166667]]></Argument>
+					<Argument><![CDATA[0.713888889]]></Argument>
+					<Argument><![CDATA[0.73125]]></Argument>
+					<Argument><![CDATA[0.736805556]]></Argument>
+					<Argument><![CDATA[0.761805556]]></Argument>
+					<Argument><![CDATA[0.764583333]]></Argument>
+					<Argument><![CDATA[0.781944444]]></Argument>
+					<Argument><![CDATA[0.804861111]]></Argument>
+					<Argument><![CDATA[0.85625]]></Argument>
+					<Argument><![CDATA[0.861805556]]></Argument>
+					<Argument><![CDATA[0.872222222]]></Argument>
+					<Argument><![CDATA[0.872916667]]></Argument>
+					<Argument><![CDATA[0.879861111]]></Argument>
+					<Argument><![CDATA[0.89375]]></Argument>
+					<Argument><![CDATA[0.896527778]]></Argument>
+					<Argument><![CDATA[0.900694444]]></Argument>
+					<Argument><![CDATA[0.932638889]]></Argument>
+					<Argument><![CDATA[0.948611111]]></Argument>
+					<Argument><![CDATA[0.959027778]]></Argument>
+					<Argument><![CDATA[0.982638889]]></Argument>
+					<Argument><![CDATA[0.990277778]]></Argument>				
+				</CustomDistribution>		
+			</CustomDistributions>
+			<Schedules>
+				<Schedule>
+					<Id>1480810967555</Id>
+					<Name><![CDATA[RSLigovoIntensity]]></Name>
+					<X>-100</X><Y>220</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<ValueType>double_</ValueType>
+					<UnitType><![CDATA[RATE]]></UnitType>
+					<UnitOfValue Class="RateUnits"><![CDATA[PER_MINUTE]]></UnitOfValue>
+					<DefaultValue>0.0</DefaultValue>
+					<RepresentationMode>exactTimes</RepresentationMode>
+					<IntervalsDefinition>listOfRangesWithPriority</IntervalsDefinition>
+					<RepresentationType>timeUnits</RepresentationType>
+					<FirstDayOfWeek>monday</FirstDayOfWeek>
+					<TimeUnitsInterval>minutes</TimeUnitsInterval>
+					<RepeatTime>86400000</RepeatTime>
+					<RepeatTimeInterval>days</RepeatTimeInterval>
+					<IsSnapTo>false</IsSnapTo>
+					<SnapTo>0</SnapTo>
+					<SnapToTimeUnits>weeks</SnapToTimeUnits>
+					<AllDayExceptionMode>false</AllDayExceptionMode>
+					<LoadFromDatabase><![CDATA[false]]></LoadFromDatabase>
+					<IntervalsQuery>
+						<TableReference>
+							<PackageName><![CDATA[kursovik]]></PackageName>
+							<ClassName><![CDATA[rs_ligovo]]></ClassName>
+						</TableReference>
+							<StartColumnReference>
+								<PackageName><![CDATA[kursovik]]></PackageName>
+								<ClassName><![CDATA[rs_ligovo]]></ClassName>
+								<ItemName><![CDATA[start]]></ItemName>
+							</StartColumnReference>
+							<EndColumnReference>
+							</EndColumnReference>
+							<ValueColumnReference>
+								<PackageName><![CDATA[kursovik]]></PackageName>
+								<ClassName><![CDATA[rs_ligovo]]></ClassName>
+								<ItemName><![CDATA[intensity]]></ItemName>
+							</ValueColumnReference>
+					</IntervalsQuery>
+					<Intervals>
+						<Interval>
+							<Start>18720000</Start>
+							<End>120000</End>
+							<Value>2.0</Value>
+						</Interval>
+						<Interval>
+							<Start>19620000</Start>
+							<End>0</End>
+							<Value>0.6666666666666666</Value>
+						</Interval>
+						<Interval>
+							<Start>20520000</Start>
+							<End>120000</End>
+							<Value>2.6666666666666665</Value>
+						</Interval>
+						<Interval>
+							<Start>21420000</Start>
+							<End>360000</End>
+							<Value>6.666666666666667</Value>
+						</Interval>
+						<Interval>
+							<Start>22320000</Start>
+							<End>120000</End>
+							<Value>2.6666666666666665</Value>
+						</Interval>
+						<Interval>
+							<Start>23160000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>24660000</Start>
+							<End>0</End>
+							<Value>0.6666666666666666</Value>
+						</Interval>
+						<Interval>
+							<Start>25020000</Start>
+							<End>0</End>
+							<Value>0.6666666666666666</Value>
+						</Interval>
+						<Interval>
+							<Start>26460000</Start>
+							<End>180000</End>
+							<Value>3.3333333333333335</Value>
+						</Interval>
+						<Interval>
+							<Start>27060000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>27660000</Start>
+							<End>120000</End>
+							<Value>2.0</Value>
+						</Interval>
+						<Interval>
+							<Start>28260000</Start>
+							<End>180000</End>
+							<Value>3.3333333333333335</Value>
+						</Interval>
+						<Interval>
+							<Start>28860000</Start>
+							<End>240000</End>
+							<Value>4.0</Value>
+						</Interval>
+						<Interval>
+							<Start>29400000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>30120000</Start>
+							<End>180000</End>
+							<Value>3.3333333333333335</Value>
+						</Interval>
+						<Interval>
+							<Start>31200000</Start>
+							<End>120000</End>
+							<Value>2.0</Value>
+						</Interval>
+						<Interval>
+							<Start>34440000</Start>
+							<End>240000</End>
+							<Value>4.0</Value>
+						</Interval>
+						<Interval>
+							<Start>36540000</Start>
+							<End>300000</End>
+							<Value>5.333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>37500000</Start>
+							<End>0</End>
+							<Value>0.6666666666666666</Value>
+						</Interval>
+						<Interval>
+							<Start>37980000</Start>
+							<End>120000</End>
+							<Value>2.0</Value>
+						</Interval>
+						<Interval>
+							<Start>39600000</Start>
+							<End>120000</End>
+							<Value>2.0</Value>
+						</Interval>
+						<Interval>
+							<Start>40080000</Start>
+							<End>0</End>
+							<Value>0.6666666666666666</Value>
+						</Interval>
+						<Interval>
+							<Start>40920000</Start>
+							<End>0</End>
+							<Value>0.6666666666666666</Value>
+						</Interval>
+						<Interval>
+							<Start>41160000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>41460000</Start>
+							<End>420000</End>
+							<Value>7.333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>42900000</Start>
+							<End>0</End>
+							<Value>0.6666666666666666</Value>
+						</Interval>
+						<Interval>
+							<Start>43200000</Start>
+							<End>120000</End>
+							<Value>2.6666666666666665</Value>
+						</Interval>
+						<Interval>
+							<Start>45720000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>46080000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>47820000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>48840000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>49320000</Start>
+							<End>180000</End>
+							<Value>3.3333333333333335</Value>
+						</Interval>
+						<Interval>
+							<Start>49560000</Start>
+							<End>180000</End>
+							<Value>3.3333333333333335</Value>
+						</Interval>
+						<Interval>
+							<Start>50520000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>50820000</Start>
+							<End>120000</End>
+							<Value>2.6666666666666665</Value>
+						</Interval>
+						<Interval>
+							<Start>51180000</Start>
+							<End>120000</End>
+							<Value>2.0</Value>
+						</Interval>
+						<Interval>
+							<Start>53040000</Start>
+							<End>120000</End>
+							<Value>2.6666666666666665</Value>
+						</Interval>
+						<Interval>
+							<Start>54900000</Start>
+							<End>600000</End>
+							<Value>10.0</Value>
+						</Interval>
+						<Interval>
+							<Start>56220000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>53940000</Start>
+							<End>120000</End>
+							<Value>2.0</Value>
+						</Interval>
+						<Interval>
+							<Start>56520000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>57180000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>58320000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>58680000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>59580000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>60780000</Start>
+							<End>120000</End>
+							<Value>2.0</Value>
+						</Interval>
+						<Interval>
+							<Start>61620000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>63120000</Start>
+							<End>120000</End>
+							<Value>2.0</Value>
+						</Interval>
+						<Interval>
+							<Start>63600000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>65760000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>66000000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>67500000</Start>
+							<End>720000</End>
+							<Value>12.0</Value>
+						</Interval>
+						<Interval>
+							<Start>69420000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>73920000</Start>
+							<End>60000</End>
+							<Value>1.3333333333333333</Value>
+						</Interval>
+						<Interval>
+							<Start>74400000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>75300000</Start>
+							<End>0</End>
+							<Value>0.6666666666666666</Value>
+						</Interval>
+						<Interval>
+							<Start>75360000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>75960000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>77160000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>77400000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>77760000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>80460000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>81900000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>82800000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>84840000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+						<Interval>
+							<Start>85500000</Start>
+							<End>0</End>
+							<Value>0.0</Value>
+						</Interval>
+					</Intervals>
+					<Exceptions>
+					</Exceptions>
+				</Schedule>
+			</Schedules>
 			<AgentLinks>
 				<AgentLink>
 					<Id>1480445817839</Id>
@@ -7918,502 +8379,6 @@
 						<Code><![CDATA[""]]></Code>
 					</LocationNameCode>
 					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1480507399033</Id>
-					<Name><![CDATA[RimKor39Src]]></Name>
-					<X>50</X><Y>125</Y>
-					<Label><X>-10</X><Y>-20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>false</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Source]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Source]]></ClassName>
-							<ItemName><![CDATA[1412336242928]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[arrivalType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[rate]]></Name>
-							<Value Class="CodeUnitValue">
-								<Code><![CDATA[3]]></Code>
-								<Unit Class="RateUnits"><![CDATA[PER_MINUTE]]></Unit>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[interarrivalTime]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[rateSchedule]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[modifyRate]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[rateExpression]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[arrivalSchedule]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[setAgentParametersFromDB]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[databaseTable]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[arrivalDate]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[multipleEntitiesPerArrival]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entitiesPerArrival]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[limitArrivals]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maxArrivals]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[newEntity]]></Name>
-							<Value Class="EntityCodeValue">
-								<EntityEmbeddedObject>
-									<ActiveObjectClass>
-										<PackageName><![CDATA[kursovik]]></PackageName>
-										<ClassName><![CDATA[Passenger]]></ClassName>
-									</ActiveObjectClass>
-									<GenericParameterSubstitute>
-										<GenericParameterSubstituteReference>
-											<PackageName><![CDATA[kursovik]]></PackageName>
-											<ClassName><![CDATA[Passenger]]></ClassName>
-											<ItemName><![CDATA[1480793730108]]></ItemName>
-										</GenericParameterSubstituteReference>
-									</GenericParameterSubstitute>
-									<Parameters>
-									</Parameters>
-									<ReplicationFlag>true</ReplicationFlag>
-									<Replication Class="CodeValue">
-										<Code><![CDATA[100]]></Code>
-									</Replication>
-									<CollectionType>ARRAY_LIST_BASED</CollectionType>
-									<InitialSpeedCode Class="CodeUnitValue">
-										<Code><![CDATA[10]]></Code>
-										<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
-									</InitialSpeedCode>
-									<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-									<XCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</XCode>
-									<YCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</YCode>
-									<ZCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</ZCode>
-									<ColumnCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</ColumnCode>
-									<RowCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</RowCode>
-									<LatitudeCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</LatitudeCode>
-									<LongitudeCode Class="CodeValue">
-										<Code><![CDATA[0]]></Code>
-									</LongitudeCode>
-									<LocationNameCode Class="CodeValue">
-										<Code><![CDATA[""]]></Code>
-									</LocationNameCode>
-									<InitializationType>LOAD_FROM_DATABASE</InitializationType>
-									<InitializationDatabaseTableQuery>
-										<TableReference>
-										</TableReference>
-									</InitializationDatabaseTableQuery>
-									<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-									<QuantityColumn>
-									</QuantityColumn>
-								</EntityEmbeddedObject>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationType]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationX]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationY]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationZ]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationLatitude]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationLongitude]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationGeoPlaceName]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationXYZInNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationNetwork]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationNode]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[locationAttractor]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[speed]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableCustomStartTime]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[true]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[startTime]]></Name>
-							<Value Class="CodeUnitValue">
-								<Code><![CDATA[maxTravelTime*0]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[SECOND]]></Unit>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[addToCustomPopulation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[population]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[pushProtocol]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[discardHangingEntities]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onBeforeArrival]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.birthdate=date()]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onDiscard]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialSpeedCode Class="CodeUnitValue">
-						<Code><![CDATA[10]]></Code>
-						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
-					</InitialSpeedCode>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1480507405540</Id>
-					<Name><![CDATA[RimKor39]]></Name>
-					<X>100</X><Y>115</Y>
-					<Label><X>-5</X><Y>-15</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>true</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Queue]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Queue]]></ClassName>
-							<ItemName><![CDATA[1412336242932]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[capacity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[maximumCapacity]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[entityLocation]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[queuing]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[priority]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[comparison]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enableTimeout]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[true]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[timeout]]></Name>
-							<Value Class="CodeUnitValue">
-								<Code><![CDATA[20]]></Code>
-								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[enablePreemption]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[true]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[restoreEntityLocationOnExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[forceStatisticsCollection]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.startWaiting=date()]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onAtExit]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.wait=(date().getTime()-agent.startWaiting.getTime())/6000]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitTimeout]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExitPreempted]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onRemove]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialSpeedCode Class="CodeUnitValue">
-						<Code><![CDATA[10]]></Code>
-						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
-					</InitialSpeedCode>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1480507422353</Id>
-					<Name><![CDATA[RimKor39Pick]]></Name>
-					<X>230</X><Y>50</Y>
-					<Label><X>-15</X><Y>-15</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<PresentationId>1480531066616</PresentationId>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Pickup]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Pickup]]></ClassName>
-							<ItemName><![CDATA[1412336242947]]></ItemName>
-						</GenericParameterSubstituteReference>
-						<GenericParameterSubstituteValue Class="CodeValue">
-							<Code><![CDATA[Bus]]></Code>
-						</GenericParameterSubstituteValue>
-					</GenericParameterSubstitute>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Pickup]]></ClassName>
-							<ItemName><![CDATA[1412336242948]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[pickupType]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[self.QUANTITY]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[condition]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[container.contents().size()<container.capacity]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[quantity]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[container.capacity-container.contents().size()]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[queueIsConnectedToPort]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[queue]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[pushProtocol]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[container.size=container.contents().size()]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onPickup]]></Name>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[onExit]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
-							</Value>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialSpeedCode Class="CodeUnitValue">
-						<Code><![CDATA[10]]></Code>
-						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
-					</InitialSpeedCode>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>EMPTY</InitializationType>
 					<InitializationDatabaseTableQuery>
 						<TableReference>
 						</TableReference>
@@ -8737,25 +8702,42 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[arrivalType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.RATE_SCHEDULE]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[5]]></Code>
+								<Code><![CDATA[test((getHourOfDay(date())*60 + getMinute(date()))/(24.0 * 60.0))]]></Code>
 								<Unit Class="RateUnits"><![CDATA[PER_MINUTE]]></Unit>
 							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[interarrivalTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[RS_LIgovo_src()]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[DAY]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rateSchedule]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[RSLigovoIntensity]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[modifyRate]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[true]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rateExpression]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[baseRate]]></Code>
+								<Unit Class="RateUnits"><![CDATA[PER_MINUTE]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[arrivalSchedule]]></Name>
@@ -8965,7 +8947,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480534510321</Id>
-					<Name><![CDATA[RimKor53]]></Name>
+					<Name><![CDATA[RSLigovo]]></Name>
 					<X>120</X><Y>280</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -9919,6 +9901,9 @@
 					<Parameters>
 						<Parameter>
 							<Name><![CDATA[arrivalType]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[self.INTERARRIVAL_TIME]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rate]]></Name>
@@ -9929,6 +9914,10 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[interarrivalTime]]></Name>
+							<Value Class="CodeUnitValue">
+								<Code><![CDATA[partGermSrc()]]></Code>
+								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[rateSchedule]]></Name>
@@ -10147,7 +10136,7 @@
 				</EmbeddedObject>
 				<EmbeddedObject>
 					<Id>1480585838614</Id>
-					<Name><![CDATA[LermProsp]]></Name>
+					<Name><![CDATA[PartGerm]]></Name>
 					<X>120</X><Y>430</Y>
 					<Label><X>-10</X><Y>-15</Y></Label>
 					<PublicFlag>false</PublicFlag>
@@ -31098,102 +31087,9 @@
 					<QuantityColumn>
 					</QuantityColumn>
 				</EmbeddedObject>
-				<EmbeddedObject>
-					<Id>1480763516868</Id>
-					<Name><![CDATA[RimKor39Leave]]></Name>
-					<X>240</X><Y>115</Y>
-					<Label><X>-15</X><Y>-20</Y></Label>
-					<PublicFlag>false</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<ActiveObjectClass>
-						<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-						<ClassName><![CDATA[Sink]]></ClassName>
-					</ActiveObjectClass>
-					<GenericParameterSubstitute>
-						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[com.anylogic.libraries.processmodeling]]></PackageName>
-							<ClassName><![CDATA[Sink]]></ClassName>
-							<ItemName><![CDATA[1412336242929]]></ItemName>
-						</GenericParameterSubstituteReference>
-					</GenericParameterSubstitute>
-					<Parameters>
-						<Parameter>
-							<Name><![CDATA[onEnter]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
-							</Value>
-						</Parameter>
-						<Parameter>
-							<Name><![CDATA[destroyEntity]]></Name>
-						</Parameter>
-					</Parameters>
-					<ReplicationFlag>false</ReplicationFlag>
-					<Replication Class="CodeValue">
-						<Code><![CDATA[100]]></Code>
-					</Replication>
-					<CollectionType>ARRAY_LIST_BASED</CollectionType>
-					<InitialSpeedCode Class="CodeUnitValue">
-						<Code><![CDATA[10]]></Code>
-						<Unit Class="SpeedUnits"><![CDATA[MPS]]></Unit>
-					</InitialSpeedCode>
-					<InitialLocationType>AT_ANIMATION_POSITION</InitialLocationType>
-					<XCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</XCode>
-					<YCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</YCode>
-					<ZCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ZCode>
-					<ColumnCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</ColumnCode>
-					<RowCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</RowCode>
-					<LatitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LatitudeCode>
-					<LongitudeCode Class="CodeValue">
-						<Code><![CDATA[0]]></Code>
-					</LongitudeCode>
-					<LocationNameCode Class="CodeValue">
-						<Code><![CDATA[""]]></Code>
-					</LocationNameCode>
-					<InitializationType>SPECIFIED_NUMBER</InitializationType>
-					<InitializationDatabaseTableQuery>
-						<TableReference>
-						</TableReference>
-					</InitializationDatabaseTableQuery>
-					<InitializationDatabaseType>ONE_AGENT_PER_DATABASE_RECORD</InitializationDatabaseType>
-					<QuantityColumn>
-					</QuantityColumn>
-				</EmbeddedObject>
 			</EmbeddedObjects>
 
 			<Shapes>
-				<EmbeddedObjectPresentation>
-					<Id>1480531066616</Id>
-					<Name><![CDATA[RimKor39Pick_presentation]]></Name>
-					<X>-1619.5</X><Y>0.5</Y>
-					<Label><X>10</X><Y>0</Y></Label>
-					<PublicFlag>true</PublicFlag>
-					<PresentationFlag>true</PresentationFlag>
-					<ShowLabel>false</ShowLabel>
-					<DrawMode>SHAPE_DRAW_2D3D</DrawMode>
-					<AsObject>true</AsObject>
-					<EmbeddedIcon>false</EmbeddedIcon>
-					<Z>0</Z>
-					<Rotation>0.0</Rotation>
-					<DrawingMode>AGENT_CURRENT_POSITION</DrawingMode>
-					<ScaleType>AUTOMATICALLY_CALCULATED</ScaleType>
-					<GISScaleForRealEmbeddedObjectPresentationSize>1000</GISScaleForRealEmbeddedObjectPresentationSize>
-					<GISScaleForFixedEmbeddedObjectPresentationSize>1000000000</GISScaleForFixedEmbeddedObjectPresentationSize>
-					<Latitude>0.0</Latitude>
-					<Longitude>0.0</Longitude>
-				</EmbeddedObjectPresentation>
 				<EmbeddedObjectPresentation>
 					<Id>1480541958272</Id>
 					<Name><![CDATA[Interval_presentation]]></Name>
