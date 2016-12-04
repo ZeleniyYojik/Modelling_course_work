@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="7.3.6.201610041917" AlpVersion="7.3.3">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="7.3.6.201610042019" AlpVersion="7.3.3">
 <Model>
 	<Id>1480445817838</Id>
 	<Name><![CDATA[Kursovik]]></Name>
@@ -124,7 +124,7 @@
 					<Properties SaveInSnapshot="true" Constant="true" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[10]]></Code>
+							<Code><![CDATA[13]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -5106,8 +5106,8 @@
 						<Point><X>0</X><Y>0</Y></Point>
 						<Point><X>40</X><Y>0</Y></Point>
 						<Point><X>40</X><Y>-100</Y></Point>
-						<Point><X>-980</X><Y>-100</Y></Point>
-						<Point><X>-940</X><Y>-70</Y></Point>
+						<Point><X>-920</X><Y>-100</Y></Point>
+						<Point><X>-920</X><Y>-50</Y></Point>
 						<Point><X>-900</X><Y>-50</Y></Point>
 					</Points>
 				</Connector>
@@ -23583,14 +23583,11 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[enableCustomStartTime]]></Name>
-							<Value Class="CodeValue">
-								<Code><![CDATA[true]]></Code>
-							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[startTime]]></Name>
 							<Value Class="CodeUnitValue">
-								<Code><![CDATA[maxTravelTime*5]]></Code>
+								<Code><![CDATA[27]]></Code>
 								<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 							</Value>
 						</Parameter>
