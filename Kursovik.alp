@@ -173,6 +173,21 @@
 						</InitialValue>
 					</Properties>
 				</Variable>
+				<Variable Class="PlainVariable">
+					<Id>1480866135000</Id>
+					<Name><![CDATA[lost]]></Name>
+					<X>630</X><Y>10</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Properties SaveInSnapshot="true" Constant="false" AccessType="public" StaticVariable="false">
+						<Type><![CDATA[int]]></Type>        
+						<InitialValue Class="CodeValue">
+							<Code><![CDATA[0]]></Code>
+						</InitialValue>
+					</Properties>
+				</Variable>
 				<Variable Class="CollectionVariable">
 					<Id>1480788641512</Id>
 					<Name><![CDATA[Busses]]></Name>
@@ -18674,7 +18689,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -19768,7 +19783,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -20629,7 +20644,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -21493,7 +21508,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -22357,7 +22372,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -23221,7 +23236,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -24085,7 +24100,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -24949,7 +24964,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -25813,7 +25828,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -26677,7 +26692,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -27541,7 +27556,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -28405,7 +28420,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -29269,7 +29284,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -30133,7 +30148,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -30994,7 +31009,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -31858,7 +31873,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -32722,7 +32737,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -33586,7 +33601,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -34734,7 +34749,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -35598,7 +35613,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -36462,7 +36477,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -37326,7 +37341,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/60000;agent.aliveTime.update()]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -38190,7 +38205,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -39054,7 +39069,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -39918,7 +39933,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -40782,7 +40797,7 @@
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
+								<Code><![CDATA[lost++;agent.alive=(date().getTime()-agent.birthdate.getTime())/6000]]></Code>
 							</Value>
 						</Parameter>
 						<Parameter>
@@ -41056,6 +41071,65 @@
 					<Color>-7667573</Color>
 					<Expression2Flag>true</Expression2Flag>
 						<Title><![CDATA[bus8]]></Title>
+					</DataItem>
+					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
+					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
+					<ScaleType>AUTO</ScaleType>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+    			</BarChart>
+    			<BarChart>
+					<Id>1480866305992</Id>
+					<Name><![CDATA[Lost]]></Name>
+					<X>1270</X><Y>880</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1480924800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[0]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>250</Width>
+					<Height>330</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>30</YOffset>
+						<Width>170</Width>
+						<Height>240</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>30</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<Persistent>true</Persistent>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Expression><![CDATA[lost]]></Expression>
+					<Color>-3137392</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Lost passengers]]></Title>
 					</DataItem>
 					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
