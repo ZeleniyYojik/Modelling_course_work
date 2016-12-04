@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="7.3.6.201610041917" AlpVersion="7.3.3">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="7.3.6.201610042019" AlpVersion="7.3.3">
 <Model>
 	<Id>1480445817838</Id>
 	<Name><![CDATA[Kursovik]]></Name>
@@ -7492,6 +7492,18 @@
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<Body><![CDATA[return uniform(1,2);]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>RETURNS_VALUE</ReturnModificator>
+					<ReturnType><![CDATA[double]]></ReturnType>
+					<Id>1480875033703</Id>
+					<Name><![CDATA[passInBus]]></Name>
+					<X>160</X><Y>0</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[double mean=0;for(int i=0;i<Busses.size();i++){mean+=Busses.get(i).size;}return mean/Busses.size();]]></Body>
 				</Function>
 			</Functions>
 			<TableFunctions>
@@ -19377,7 +19389,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -20582,7 +20594,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -21450,7 +21462,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -22311,7 +22323,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -23175,7 +23187,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -24039,7 +24051,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -24903,7 +24915,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -25767,7 +25779,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -26631,7 +26643,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -27495,7 +27507,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -28359,7 +28371,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -29223,7 +29235,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -30087,7 +30099,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -30951,7 +30963,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -31815,7 +31827,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -32676,7 +32688,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -33540,7 +33552,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -34404,7 +34416,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -35359,6 +35371,9 @@
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onEnter]]></Name>
+							<Value Class="CodeValue">
+								<Code><![CDATA[container.size=0]]></Code>
+							</Value>
 						</Parameter>
 						<Parameter>
 							<Name><![CDATA[onDropoff]]></Name>
@@ -35552,7 +35567,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -36416,7 +36431,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -37280,7 +37295,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -38144,7 +38159,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -39008,7 +39023,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -39872,7 +39887,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -40736,7 +40751,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -41600,7 +41615,7 @@
 						<Parameter>
 							<Name><![CDATA[onExit]]></Name>
 							<Value Class="CodeValue">
-								<Code><![CDATA[container.count+=container.contents().size()-container.size;]]></Code>
+								<Code><![CDATA[container.count+=container.contents().size()-container.size;container.size=container.contents().size()]]></Code>
 							</Value>
 						</Parameter>
 					</Parameters>
@@ -42426,7 +42441,7 @@
     			<BarChart>
 					<Id>1480788763836</Id>
 					<Name><![CDATA[chart]]></Name>
-					<X>1690</X><Y>90</Y>
+					<X>1740</X><Y>130</Y>
 					<Label><X>0</X><Y>-10</Y></Label>
 					<PublicFlag>true</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -42443,23 +42458,23 @@
 						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
 					</RecurrenceCode>
 					<EmbeddedIcon>false</EmbeddedIcon>
-					<Width>600</Width>
-					<Height>400</Height>
+					<Width>700</Width>
+					<Height>370</Height>
 					<BackgroundColor/>
 					<BorderColor/>
 					<ChartArea>
 						<XOffset>50</XOffset>
 						<YOffset>30</YOffset>
-						<Width>520</Width>
+						<Width>460</Width>
 						<Height>320</Height>
 						<BackgroundColor>-1</BackgroundColor>
 						<BorderColor>-16777216</BorderColor>
 						<GridColor>-12566464</GridColor>
 					</ChartArea>
 					<Legend>
-						<Place>SOUTH</Place>
+						<Place>WEST</Place>
 						<TextColor>-16777216</TextColor>
-						<Size>30</Size>
+						<Size>160</Size>
 					</Legend>
 					<Labels>
 						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
@@ -42574,6 +42589,166 @@
 					<Color>-3137392</Color>
 					<Expression2Flag>true</Expression2Flag>
 						<Title><![CDATA[Lost passengers]]></Title>
+					</DataItem>
+					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
+					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
+					<ScaleType>AUTO</ScaleType>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+    			</BarChart>
+    			<BarChart>
+					<Id>1480874526299</Id>
+					<Name><![CDATA[chart1]]></Name>
+					<X>210</X><Y>1080</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1480924800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[16]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>780</Width>
+					<Height>380</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>90</XOffset>
+						<YOffset>30</YOffset>
+						<Width>500</Width>
+						<Height>320</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>WEST</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>160</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<Persistent>true</Persistent>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(0).size]]></Expression>
+					<Color>-9728477</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Bus1]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(1).size]]></Expression>
+					<Color>-16728065</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Bus2]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(2).size]]></Expression>
+					<Color>-4565549</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Bus3]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(3).size]]></Expression>
+					<Color>-2354116</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Bus4]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(4).size]]></Expression>
+					<Color>-10496</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Bus5]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(5).size]]></Expression>
+					<Color>-6632142</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Bus6]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(6).size]]></Expression>
+					<Color>-14774017</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Bus7]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(7).size]]></Expression>
+					<Color>-3137392</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Bus8]]></Title>
+					</DataItem>
+					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
+					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
+					<ScaleType>AUTO</ScaleType>
+					<Bars>
+						<Direction>UP</Direction>
+						<RelativeWidth>0.8</RelativeWidth>
+					</Bars>
+    			</BarChart>
+    			<BarChart>
+					<Id>1480875304327</Id>
+					<Name><![CDATA[chart2]]></Name>
+					<X>-180</X><Y>1110</Y>
+					<Label><X>0</X><Y>-10</Y></Label>
+					<PublicFlag>true</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>false</ShowLabel>
+					<AutoUpdate>true</AutoUpdate>
+					<OccurrenceAtTime>true</OccurrenceAtTime>
+					<OccurrenceDate>1480924800000</OccurrenceDate>
+					<OccurrenceTime Class="CodeUnitValue">
+						<Code><![CDATA[16]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</OccurrenceTime>
+					<RecurrenceCode Class="CodeUnitValue">
+						<Code><![CDATA[1]]></Code>
+						<Unit Class="TimeUnits"><![CDATA[MINUTE]]></Unit>
+					</RecurrenceCode>
+					<EmbeddedIcon>false</EmbeddedIcon>
+					<Width>370</Width>
+					<Height>390</Height>
+					<BackgroundColor/>
+					<BorderColor/>
+					<ChartArea>
+						<XOffset>50</XOffset>
+						<YOffset>30</YOffset>
+						<Width>290</Width>
+						<Height>300</Height>
+						<BackgroundColor>-1</BackgroundColor>
+						<BorderColor>-16777216</BorderColor>
+						<GridColor>-12566464</GridColor>
+					</ChartArea>
+					<Legend>
+						<Place>SOUTH</Place>
+						<TextColor>-16777216</TextColor>
+						<Size>30</Size>
+					</Legend>
+					<Labels>
+						<HorLabelsPosition>DEFAULT</HorLabelsPosition>
+						<VerLabelsPosition>DEFAULT</VerLabelsPosition>
+						<TextColor>-12566464</TextColor>
+					</Labels>
+					<Persistent>true</Persistent>
+					<ShowLegend>true</ShowLegend>
+					<DataItem>
+					<Expression><![CDATA[passInBus()]]></Expression>
+					<Color>-12004916</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Passenger in buses mean]]></Title>
 					</DataItem>
 					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
