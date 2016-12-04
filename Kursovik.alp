@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="7.3.6.201610042019" AlpVersion="7.3.3">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="7.3.6.201610041917" AlpVersion="7.3.3">
 <Model>
 	<Id>1480445817838</Id>
 	<Name><![CDATA[Kursovik]]></Name>
@@ -7585,11 +7585,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>5820000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>7260000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
@@ -7650,17 +7645,7 @@
 							<Value>2.0</Value>
 						</Interval>
 						<Interval>
-							<Start>20400000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
 							<Start>20820000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
-							<Start>21720000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
 						</Interval>
@@ -7690,27 +7675,12 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>26880000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>28620000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>29640000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
 							<Start>30120000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
-							<Start>30360000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
 						</Interval>
@@ -7755,22 +7725,7 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>38040000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>39060000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>39480000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>40380000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -7831,51 +7786,6 @@
 						</Interval>
 						<Interval>
 							<Start>56160000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>56760000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57960000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58200000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58560000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>61260000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>62640000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63540000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>65640000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66300000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -7974,11 +7884,6 @@
 						</Interval>
 						<Interval>
 							<Start>5880000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
-							<Start>7320000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
 						</Interval>
@@ -8108,11 +8013,6 @@
 							<Value>4.0</Value>
 						</Interval>
 						<Interval>
-							<Start>31680000</Start>
-							<End>240000</End>
-							<Value>4.0</Value>
-						</Interval>
-						<Interval>
 							<Start>32040000</Start>
 							<End>360000</End>
 							<Value>6.0</Value>
@@ -8129,11 +8029,6 @@
 						</Interval>
 						<Interval>
 							<Start>37080000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
-							<Start>34800000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
 						</Interval>
@@ -8223,47 +8118,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>56820000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58020000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58260000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>58620000</Start>
 							<End>240000</End>
 							<Value>4.0</Value>
 						</Interval>
 						<Interval>
 							<Start>61320000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>62760000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63600000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>65700000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66360000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -8327,11 +8187,6 @@
 					<Intervals>
 						<Interval>
 							<Start>86100000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
-							<Start>600000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
 						</Interval>
@@ -8431,11 +8286,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>21060000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>21900000</Start>
 							<End>240000</End>
 							<Value>4.0</Value>
@@ -8447,11 +8297,6 @@
 						</Interval>
 						<Interval>
 							<Start>22380000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
-							<Start>23880000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
 						</Interval>
@@ -8591,16 +8436,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>54900000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>55380000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>56280000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
@@ -8611,37 +8446,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>56940000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58140000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58380000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>58740000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
 							<Start>61500000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>62880000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63780000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -8754,11 +8564,6 @@
 							<Value>3.3333333333333335</Value>
 						</Interval>
 						<Interval>
-							<Start>7500000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
 							<Start>8100000</Start>
 							<End>360000</End>
 							<Value>6.666666666666667</Value>
@@ -8795,11 +8600,6 @@
 						</Interval>
 						<Interval>
 							<Start>15420000</Start>
-							<End>240000</End>
-							<Value>4.0</Value>
-						</Interval>
-						<Interval>
-							<Start>17580000</Start>
 							<End>240000</End>
 							<Value>4.0</Value>
 						</Interval>
@@ -8999,11 +8799,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>56940000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>58200000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -9020,16 +8815,6 @@
 						</Interval>
 						<Interval>
 							<Start>61500000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>62940000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63780000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -9122,11 +8907,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>3420000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>4200000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -9173,11 +8953,6 @@
 						</Interval>
 						<Interval>
 							<Start>11160000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
-							<Start>12300000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
 						</Interval>
@@ -9252,11 +9027,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>29940000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>30360000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
@@ -9322,21 +9092,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>40680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>41880000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>42720000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>44220000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
@@ -9367,16 +9122,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>55020000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>55500000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>56400000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
@@ -9387,47 +9132,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>57060000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58260000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58500000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>58860000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
 							<Start>61560000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63000000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63900000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>65940000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66600000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -9496,16 +9206,6 @@
 						</Interval>
 						<Interval>
 							<Start>720000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
-							<Start>1680000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
-							<Start>2580000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
 						</Interval>
@@ -9585,16 +9285,6 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>19140000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>20760000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>21180000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
@@ -9640,11 +9330,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>29940000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>30420000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
@@ -9670,11 +9355,6 @@
 							<Value>2.0</Value>
 						</Interval>
 						<Interval>
-							<Start>34200000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
 							<Start>36060000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
@@ -9695,11 +9375,6 @@
 							<Value>2.0</Value>
 						</Interval>
 						<Interval>
-							<Start>38400000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
 							<Start>39420000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -9711,11 +9386,6 @@
 						</Interval>
 						<Interval>
 							<Start>40740000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>41880000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -9755,16 +9425,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>55080000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>55560000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>56460000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
@@ -9786,36 +9446,6 @@
 						</Interval>
 						<Interval>
 							<Start>58560000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58920000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>61680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63060000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63960000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66000000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66660000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -9903,16 +9533,6 @@
 							<Value>2.0</Value>
 						</Interval>
 						<Interval>
-							<Start>4320000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
-							<Start>5820000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
 							<Start>6240000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
@@ -9933,11 +9553,6 @@
 							<Value>3.3333333333333335</Value>
 						</Interval>
 						<Interval>
-							<Start>9480000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
 							<Start>10080000</Start>
 							<End>240000</End>
 							<Value>4.0</Value>
@@ -9954,21 +9569,6 @@
 						</Interval>
 						<Interval>
 							<Start>12360000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>15660000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>17760000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>18720000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
@@ -10038,11 +9638,6 @@
 							<Value>3.3333333333333335</Value>
 						</Interval>
 						<Interval>
-							<Start>30840000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
 							<Start>31740000</Start>
 							<End>600000</End>
 							<Value>10.0</Value>
@@ -10073,32 +9668,12 @@
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
-							<Start>35160000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
-							<Start>37740000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
 							<Start>38460000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
 						</Interval>
 						<Interval>
 							<Start>39480000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>39900000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>40740000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -10143,27 +9718,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>55140000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>55620000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>56520000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
 							<Start>56580000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57180000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -10194,16 +9754,6 @@
 						</Interval>
 						<Interval>
 							<Start>64020000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66060000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66720000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -10321,11 +9871,6 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>9540000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>10140000</Start>
 							<End>360000</End>
 							<Value>6.0</Value>
@@ -10356,11 +9901,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>18780000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>19260000</Start>
 							<End>240000</End>
 							<Value>4.0</Value>
@@ -10376,32 +9916,12 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>22140000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>22380000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>22680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>24120000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>24480000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>27000000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
@@ -10427,11 +9947,6 @@
 						</Interval>
 						<Interval>
 							<Start>30840000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
-							<Start>31800000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
 						</Interval>
@@ -10481,16 +9996,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>39960000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>40860000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>42000000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
@@ -10531,16 +10036,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>55200000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>55680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>56580000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
@@ -10572,26 +10067,6 @@
 						</Interval>
 						<Interval>
 							<Start>61740000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63120000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>64020000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66120000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66780000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -10779,11 +10254,6 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>24240000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>24600000</Start>
 							<End>360000</End>
 							<Value>6.0</Value>
@@ -10804,11 +10274,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>30180000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>30660000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
@@ -10820,16 +10285,6 @@
 						</Interval>
 						<Interval>
 							<Start>31920000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
-							<Start>32220000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
-							<Start>32580000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
 						</Interval>
@@ -10849,11 +10304,6 @@
 							<Value>2.0</Value>
 						</Interval>
 						<Interval>
-							<Start>35340000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
 							<Start>37920000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
@@ -10869,11 +10319,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>40080000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>40980000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
@@ -10885,11 +10330,6 @@
 						</Interval>
 						<Interval>
 							<Start>43020000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
-							<Start>44520000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
 						</Interval>
@@ -10939,21 +10379,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>57360000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58560000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58800000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>59160000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
@@ -10970,16 +10395,6 @@
 						</Interval>
 						<Interval>
 							<Start>64200000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66240000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66900000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -11262,11 +10677,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>41100000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>42240000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
@@ -11317,31 +10727,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>56820000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>56880000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57420000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58920000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>59280000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
@@ -11358,16 +10743,6 @@
 						</Interval>
 						<Interval>
 							<Start>64260000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66360000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67020000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -11470,11 +10845,6 @@
 							<Value>6.666666666666667</Value>
 						</Interval>
 						<Interval>
-							<Start>8040000</Start>
-							<End>360000</End>
-							<Value>6.666666666666667</Value>
-						</Interval>
-						<Interval>
 							<Start>8580000</Start>
 							<End>240000</End>
 							<Value>4.0</Value>
@@ -11496,11 +10866,6 @@
 						</Interval>
 						<Interval>
 							<Start>11040000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
-							<Start>11640000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
 						</Interval>
@@ -11575,11 +10940,6 @@
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
-							<Start>29400000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
 							<Start>30360000</Start>
 							<End>240000</End>
 							<Value>4.666666666666667</Value>
@@ -11611,11 +10971,6 @@
 						</Interval>
 						<Interval>
 							<Start>34620000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
-							<Start>36480000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
 						</Interval>
@@ -11720,22 +11075,7 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>58740000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>58980000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>59340000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>62040000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -11833,11 +11173,6 @@
 							<Value>4.0</Value>
 						</Interval>
 						<Interval>
-							<Start>3060000</Start>
-							<End>240000</End>
-							<Value>4.0</Value>
-						</Interval>
-						<Interval>
 							<Start>4020000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -11863,11 +11198,6 @@
 							<Value>6.666666666666667</Value>
 						</Interval>
 						<Interval>
-							<Start>8700000</Start>
-							<End>360000</End>
-							<Value>6.666666666666667</Value>
-						</Interval>
-						<Interval>
 							<Start>9360000</Start>
 							<End>420000</End>
 							<Value>7.333333333333333</Value>
@@ -11883,22 +11213,12 @@
 							<Value>6.666666666666667</Value>
 						</Interval>
 						<Interval>
-							<Start>11100000</Start>
-							<End>360000</End>
-							<Value>6.666666666666667</Value>
-						</Interval>
-						<Interval>
 							<Start>11760000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
 							<Start>12900000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
-							<Start>16140000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
 						</Interval>
@@ -11958,22 +11278,7 @@
 							<Value>3.3333333333333335</Value>
 						</Interval>
 						<Interval>
-							<Start>27720000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
 							<Start>29520000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
-							<Start>30480000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
-							<Start>30960000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
 						</Interval>
@@ -12028,17 +11333,7 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>39960000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>40380000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>41220000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -12093,21 +11388,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>56940000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57060000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57660000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>58860000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
@@ -12134,16 +11414,6 @@
 						</Interval>
 						<Interval>
 							<Start>64440000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66540000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67200000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -12211,17 +11481,7 @@
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
-							<Start>1380000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
 							<Start>2340000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
-							<Start>3180000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
 						</Interval>
@@ -12242,11 +11502,6 @@
 						</Interval>
 						<Interval>
 							<Start>6840000</Start>
-							<End>240000</End>
-							<Value>4.0</Value>
-						</Interval>
-						<Interval>
-							<Start>8280000</Start>
 							<End>240000</End>
 							<Value>4.0</Value>
 						</Interval>
@@ -12291,16 +11546,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>18360000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
-							<Start>19320000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>19740000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
@@ -12317,16 +11562,6 @@
 						</Interval>
 						<Interval>
 							<Start>22680000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>22920000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>23220000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
@@ -12361,17 +11596,7 @@
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
-							<Start>31080000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
 							<Start>31380000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
-							<Start>32340000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
 						</Interval>
@@ -12426,11 +11651,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>41400000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>42540000</Start>
 							<End>240000</End>
 							<Value>4.0</Value>
@@ -12471,27 +11691,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>55740000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>56220000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>57120000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
 							<Start>57180000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57720000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -12506,32 +11711,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>59580000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>62280000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>63720000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
 						</Interval>
 						<Interval>
 							<Start>64560000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66660000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67320000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -12649,26 +11834,6 @@
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
-							<Start>10140000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
-							<Start>10740000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
-							<Start>11280000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
-							<Start>11940000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
 							<Start>13080000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
@@ -12749,11 +11914,6 @@
 							<Value>2.0</Value>
 						</Interval>
 						<Interval>
-							<Start>31140000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
 							<Start>31440000</Start>
 							<End>300000</End>
 							<Value>5.333333333333333</Value>
@@ -12814,11 +11974,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>41460000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>42600000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
@@ -12869,21 +12024,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>57180000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57180000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57840000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>58980000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
@@ -12910,16 +12050,6 @@
 						</Interval>
 						<Interval>
 							<Start>64680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66720000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67380000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -13047,22 +12177,12 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>11340000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>12000000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
 						</Interval>
 						<Interval>
 							<Start>13140000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>16380000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
@@ -13078,11 +12198,6 @@
 						</Interval>
 						<Interval>
 							<Start>19860000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
-							<Start>21540000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
 						</Interval>
@@ -13147,22 +12262,12 @@
 							<Value>4.0</Value>
 						</Interval>
 						<Interval>
-							<Start>32460000</Start>
-							<End>240000</End>
-							<Value>4.0</Value>
-						</Interval>
-						<Interval>
 							<Start>32760000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
 							<Start>33120000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
-							<Start>34980000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
 						</Interval>
@@ -13272,11 +12377,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>59100000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>59340000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
@@ -13298,16 +12398,6 @@
 						</Interval>
 						<Interval>
 							<Start>64680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66780000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67440000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -13495,11 +12585,6 @@
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
-							<Start>24840000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
 							<Start>25140000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -13560,11 +12645,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>38220000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>35940000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
@@ -13580,17 +12660,7 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>40260000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>40680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>41520000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -13625,26 +12695,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>49500000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>51420000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>55920000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>56400000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>57300000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
@@ -13655,47 +12705,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>57900000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>59160000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>59400000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>59760000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>62460000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>63900000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
 							<Start>64740000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66840000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67500000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -13763,11 +12778,6 @@
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
-							<Start>1620000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
 							<Start>2580000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -13824,11 +12834,6 @@
 						</Interval>
 						<Interval>
 							<Start>11460000</Start>
-							<End>480000</End>
-							<Value>8.666666666666666</Value>
-						</Interval>
-						<Interval>
-							<Start>12120000</Start>
 							<End>480000</End>
 							<Value>8.666666666666666</Value>
 						</Interval>
@@ -13913,11 +12918,6 @@
 							<Value>2.0</Value>
 						</Interval>
 						<Interval>
-							<Start>31320000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
 							<Start>31620000</Start>
 							<End>420000</End>
 							<Value>7.333333333333333</Value>
@@ -13953,11 +12953,6 @@
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
-							<Start>36000000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
 							<Start>38520000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
@@ -13969,16 +12964,6 @@
 						</Interval>
 						<Interval>
 							<Start>40320000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>40740000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>41640000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -14033,31 +13018,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>57360000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57420000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58020000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>59220000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>59460000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>59820000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -14074,16 +13034,6 @@
 						</Interval>
 						<Interval>
 							<Start>64860000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66900000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67560000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -14326,16 +13276,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>35160000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>36960000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>38280000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -14362,21 +13302,6 @@
 						</Interval>
 						<Interval>
 							<Start>40800000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>41640000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>42840000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>43680000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -14431,11 +13356,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>58080000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>59280000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
@@ -14462,16 +13382,6 @@
 						</Interval>
 						<Interval>
 							<Start>64920000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>66960000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67620000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -14544,11 +13454,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>2700000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>3540000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
@@ -14565,11 +13470,6 @@
 						</Interval>
 						<Interval>
 							<Start>6780000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>7200000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
@@ -14614,11 +13514,6 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>16620000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>18720000</Start>
 							<End>360000</End>
 							<Value>6.666666666666667</Value>
@@ -14639,11 +13534,6 @@
 							<Value>2.0</Value>
 						</Interval>
 						<Interval>
-							<Start>22200000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
 							<Start>23040000</Start>
 							<End>240000</End>
 							<Value>4.0</Value>
@@ -14654,32 +13544,12 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>23580000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>25020000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
 							<Start>25320000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
-							<Start>27840000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
-							<Start>28200000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
-							<Start>30000000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
 						</Interval>
@@ -14725,11 +13595,6 @@
 						</Interval>
 						<Interval>
 							<Start>38400000</Start>
-							<End>180000</End>
-							<Value>3.3333333333333335</Value>
-						</Interval>
-						<Interval>
-							<Start>36060000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
 						</Interval>
@@ -14819,11 +13684,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>58080000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>59340000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -14850,16 +13710,6 @@
 						</Interval>
 						<Interval>
 							<Start>64920000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67020000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67680000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -14957,16 +13807,6 @@
 							<Value>4.0</Value>
 						</Interval>
 						<Interval>
-							<Start>7320000</Start>
-							<End>240000</End>
-							<Value>4.0</Value>
-						</Interval>
-						<Interval>
-							<Start>8760000</Start>
-							<End>240000</End>
-							<Value>4.0</Value>
-						</Interval>
-						<Interval>
 							<Start>9360000</Start>
 							<End>480000</End>
 							<Value>8.0</Value>
@@ -14987,11 +13827,6 @@
 							<Value>5.333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>11760000</Start>
-							<End>300000</End>
-							<Value>5.333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>12360000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
@@ -15003,11 +13838,6 @@
 						</Interval>
 						<Interval>
 							<Start>16740000</Start>
-							<End>240000</End>
-							<Value>4.666666666666667</Value>
-						</Interval>
-						<Interval>
-							<Start>18840000</Start>
 							<End>240000</End>
 							<Value>4.666666666666667</Value>
 						</Interval>
@@ -15033,11 +13863,6 @@
 						</Interval>
 						<Interval>
 							<Start>23160000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>23400000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
@@ -15127,32 +13952,12 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>39480000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>40560000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
 							<Start>40980000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>41880000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>43020000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>43920000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -15187,16 +13992,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>56220000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>56700000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>57600000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -15213,11 +14008,6 @@
 						</Interval>
 						<Interval>
 							<Start>59460000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>59640000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -15315,82 +14105,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>2160000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>3060000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>3960000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>4860000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>5700000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>7140000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>7560000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>9000000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>9600000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>10200000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>10800000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>11400000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
 							<Start>12000000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>12600000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>13740000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>16980000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -15405,52 +14125,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>20460000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>22140000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>22620000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
-							<Start>23400000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>23640000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>23940000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>25380000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>25740000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>28200000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>28560000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -15465,37 +14145,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>31860000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>32100000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>33060000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>33360000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
 							<Start>33720000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>35580000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>37380000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -15510,57 +14165,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>39000000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>39720000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
 							<Start>40800000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>41220000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>42120000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>43260000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>44160000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>45660000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>46140000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>48300000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>48540000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -15575,26 +14185,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>56460000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>56940000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57840000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57900000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>58500000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
@@ -15605,37 +14195,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>59880000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>60300000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63000000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>64440000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
 							<Start>65340000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67380000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>68040000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -15703,21 +14268,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>2280000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>3180000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>4080000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>4980000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -15733,27 +14283,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>7680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>9120000</Start>
 							<End>180000</End>
 							<Value>3.3333333333333335</Value>
 						</Interval>
 						<Interval>
 							<Start>9660000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>10320000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>10920000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -15769,11 +14304,6 @@
 						</Interval>
 						<Interval>
 							<Start>12720000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
-							<Start>13860000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
 						</Interval>
@@ -15798,37 +14328,7 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>22260000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>22740000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>23520000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>23760000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>24120000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>25500000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>25860000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -15848,37 +14348,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>31500000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>31980000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>32220000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
 							<Start>33120000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>33480000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>33840000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>35700000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -15918,31 +14393,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>42180000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>43380000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>44280000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>45780000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>46260000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>48420000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
@@ -15953,77 +14403,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>50160000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>52080000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>56580000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57060000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57900000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58020000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58620000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>59820000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>60060000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>60360000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63120000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>64500000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
 							<Start>65460000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67500000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>68160000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -16106,11 +14491,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>5040000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>5880000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
@@ -16122,11 +14502,6 @@
 						</Interval>
 						<Interval>
 							<Start>7740000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>9180000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -16151,27 +14526,12 @@
 							<Value>2.6666666666666665</Value>
 						</Interval>
 						<Interval>
-							<Start>12180000</Start>
-							<End>120000</End>
-							<Value>2.6666666666666665</Value>
-						</Interval>
-						<Interval>
 							<Start>12780000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
 							<Start>13920000</Start>
-							<End>240000</End>
-							<Value>4.666666666666667</Value>
-						</Interval>
-						<Interval>
-							<Start>17160000</Start>
-							<End>240000</End>
-							<Value>4.666666666666667</Value>
-						</Interval>
-						<Interval>
-							<Start>19260000</Start>
 							<End>240000</End>
 							<Value>4.666666666666667</Value>
 						</Interval>
@@ -16202,11 +14562,6 @@
 						</Interval>
 						<Interval>
 							<Start>23880000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
-							<Start>24180000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
 						</Interval>
@@ -16311,11 +14666,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>43440000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>44340000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
@@ -16327,16 +14677,6 @@
 						</Interval>
 						<Interval>
 							<Start>46320000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>48480000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>48720000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -16371,11 +14711,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>58680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>59880000</Start>
 							<End>420000</End>
 							<Value>7.333333333333333</Value>
@@ -16402,16 +14737,6 @@
 						</Interval>
 						<Interval>
 							<Start>65520000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67560000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>68220000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -16484,17 +14809,7 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>3300000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>4140000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>5100000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -16544,32 +14859,7 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>12840000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>13980000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>17220000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>19320000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>20280000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>20700000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
@@ -16594,17 +14884,7 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>24240000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>25620000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>25980000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -16620,16 +14900,6 @@
 						</Interval>
 						<Interval>
 							<Start>30600000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>31620000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>32100000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -16654,11 +14924,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>35820000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>37620000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
@@ -16679,91 +14944,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>39960000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>41040000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>41460000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>42360000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>43500000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>44400000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>45900000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>46380000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>48540000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>48780000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>50280000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>52200000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>56700000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>57180000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58080000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58140000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58740000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>59880000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
@@ -16780,26 +14960,6 @@
 						</Interval>
 						<Interval>
 							<Start>63240000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>64680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>65580000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67620000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>68280000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -16892,11 +15052,6 @@
 							<Value>4.0</Value>
 						</Interval>
 						<Interval>
-							<Start>7440000</Start>
-							<End>240000</End>
-							<Value>4.0</Value>
-						</Interval>
-						<Interval>
 							<Start>7860000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
@@ -16968,11 +15123,6 @@
 						</Interval>
 						<Interval>
 							<Start>22920000</Start>
-							<End>120000</End>
-							<Value>2.0</Value>
-						</Interval>
-						<Interval>
-							<Start>23760000</Start>
 							<End>120000</End>
 							<Value>2.0</Value>
 						</Interval>
@@ -17067,21 +15217,6 @@
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
-							<Start>40020000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>41100000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
-							<Start>41520000</Start>
-							<End>60000</End>
-							<Value>1.3333333333333333</Value>
-						</Interval>
-						<Interval>
 							<Start>42360000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
@@ -17153,21 +15288,6 @@
 						</Interval>
 						<Interval>
 							<Start>59940000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>60240000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>60540000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>63300000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -17255,21 +15375,6 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>2580000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>3480000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>4320000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>5280000</Start>
 							<End>120000</End>
 							<Value>2.6666666666666665</Value>
@@ -17295,32 +15400,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>9960000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>10620000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>11220000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>11820000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
 							<Start>12360000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>13020000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -17385,11 +15470,6 @@
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
-							<Start>28620000</Start>
-							<End>0</End>
-							<Value>0.6666666666666666</Value>
-						</Interval>
-						<Interval>
 							<Start>28980000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
@@ -17415,32 +15495,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>33420000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>33780000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
 							<Start>34140000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>36000000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>37800000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>39180000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -17470,27 +15530,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>42480000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>43680000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>44580000</Start>
 							<End>0</End>
 							<Value>0.6666666666666666</Value>
 						</Interval>
 						<Interval>
 							<Start>46080000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>46560000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -17505,47 +15550,12 @@
 							<Value>0.0</Value>
 						</Interval>
 						<Interval>
-							<Start>50460000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>52380000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
 							<Start>56880000</Start>
 							<End>60000</End>
 							<Value>1.3333333333333333</Value>
 						</Interval>
 						<Interval>
 							<Start>57360000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58200000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58320000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>58920000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>60120000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>60360000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
@@ -17566,16 +15576,6 @@
 						</Interval>
 						<Interval>
 							<Start>65760000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>67800000</Start>
-							<End>0</End>
-							<Value>0.0</Value>
-						</Interval>
-						<Interval>
-							<Start>68460000</Start>
 							<End>0</End>
 							<Value>0.0</Value>
 						</Interval>
