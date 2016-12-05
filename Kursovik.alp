@@ -4,7 +4,7 @@
 	         AnyLogic Project File 
 *************************************************	         
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="7.3.6.201610042019" AlpVersion="7.3.3">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="7.3.6.201610041917" AlpVersion="7.3.3">
 <Model>
 	<Id>1480445817838</Id>
 	<Name><![CDATA[Kursovik]]></Name>
@@ -124,7 +124,7 @@
 					<Properties SaveInSnapshot="true" Constant="true" AccessType="public" StaticVariable="false">
 						<Type><![CDATA[int]]></Type>        
 						<InitialValue Class="CodeValue">
-							<Code><![CDATA[10]]></Code>
+							<Code><![CDATA[9]]></Code>
 						</InitialValue>
 					</Properties>
 				</Variable>
@@ -42459,6 +42459,12 @@
 					<Expression2Flag>true</Expression2Flag>
 						<Title><![CDATA[bus8]]></Title>
 					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(8).count]]></Expression>
+					<Color>-23296</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[bus9]]></Title>
+					</DataItem>
 					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
 					<ScaleType>AUTO</ScaleType>
@@ -42618,6 +42624,12 @@
 					<Color>-3137392</Color>
 					<Expression2Flag>true</Expression2Flag>
 						<Title><![CDATA[Bus8]]></Title>
+					</DataItem>
+					<DataItem>
+					<Expression><![CDATA[Busses.get(7).size]]></Expression>
+					<Color>-32944</Color>
+					<Expression2Flag>true</Expression2Flag>
+						<Title><![CDATA[Bus9]]></Title>
 					</DataItem>
 					<ScaleFromExpression><![CDATA[0]]></ScaleFromExpression>
 					<ScaleToExpression><![CDATA[1]]></ScaleToExpression>
