@@ -5,13 +5,13 @@
 	<mlib:model-class>ru.ifmo.cis.education.JQMSNet.lib.QNet</mlib:model-class>
 	<mlib:model-detalization-level>QNet::ClosedNetwork</mlib:model-detalization-level>
 	<mlib:attribute-values>
-		<mlib:attribute name="QNet::CustomersInQueues">0.0</mlib:attribute>
-		<mlib:attribute name="QNet::TimeInNet">2.38527500909658408</mlib:attribute>
-		<mlib:attribute name="QNet::RoutingTable">[[0,1,0,0,0,0,0,0,0,0,0],[0,0,1,0,0,0,0,0,0,0,0],[0,0,0,1,0,0,0,0,0,0,0],[0.027624,0,0,0,0.972376,0,0,0,0,0,0],[0.0552,0,0,0,0,0.9448,0,0,0,0,0],[0.168289,0,0,0,0,0,0.831711,0,0,0,0],[0.079487,0,0,0,0,0,0,0.920513,0,0,0],[0.1479,0,0,0,0,0,0,0,0.8521,0,0],[0.123102,0,0,0,0,0,0,0,0,0.876898,0.0],[0.110452,0,0,0,0,0,0,0,0,0,0.889548],[1,0,0.0,0,0,0,0,0,0,0,0]]</mlib:attribute>
-		<mlib:attribute name="QNet::TimeInQueues">0.0</mlib:attribute>
-		<mlib:attribute name="QNet::QueuesCount">10</mlib:attribute>
-		<mlib:attribute name="QNet::CustomersInClosedNet">1</mlib:attribute>
-		<mlib:attribute name="QNet::NetProductivity">0.4192388702293691</mlib:attribute>
+		<mlib:attribute name="QNet::CustomersInQueues">Infinity</mlib:attribute>
+		<mlib:attribute name="QNet::TimeInNet">16.5047553292727634092</mlib:attribute>
+		<mlib:attribute name="QNet::RoutingTable">[[0,0.03356,0.052,0.03983,0.10067,0.02157,0.02932,0.03595,0.02821,0.0389,0.05089,0.0578,0.04997,0.04315,0.0343,0.04278,0.03042,0.05421,0.03817,0.03282,0.04121,0.00295,0.00719,0.03098,0.0118,0.07827,0.01308],[0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0.027624,0,0,0,0.972376,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0.0552,0,0,0,0,0.9448,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0.168289,0,0,0,0,0,0.831711,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0.079487,0,0,0,0,0,0,0.920513,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0.1479,0,0,0,0,0,0,0,0.8521,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0.123102,0,0,0,0,0,0,0,0,0.876898,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0.110452,0,0,0,0,0,0,0,0,0,0.889548,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0],[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1],[1,0,0.0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]]</mlib:attribute>
+		<mlib:attribute name="QNet::TimeInQueues">12.39970734088383110831</mlib:attribute>
+		<mlib:attribute name="QNet::QueuesCount">26</mlib:attribute>
+		<mlib:attribute name="QNet::CustomersInClosedNet">60</mlib:attribute>
+		<mlib:attribute name="QNet::NetProductivity">3.635315931862635</mlib:attribute>
 	</mlib:attribute-values>
 	<mlib:submodels>
 		<mlib:submodel-collection>
@@ -20,142 +20,366 @@
 			<mlib:model-class>ru.ifmo.cis.education.JQMS.lib.QSM</mlib:model-class>
 			<mlib:submodel>
 				<mlib:attribute-values>
-					<mlib:attribute name="QSM::RoutingFactor">1.0</mlib:attribute>
-					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::ServerDownTime">0.87422836</mlib:attribute>
-					<mlib:attribute name="QSM::ServerLoad">0.12577166</mlib:attribute>
+					<mlib:attribute name="QSM::RoutingFactor">0.03356</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">1.0</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.0</mlib:attribute>
 					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInSystem">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInQueue">0.0</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInSystem">0.12577166106881072841</mlib:attribute>
-					<mlib:attribute name="QSM::ServerUtilization">0.12577166</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">Infinity</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.0</mlib:attribute>
 					<mlib:attribute name="QSM::TimeInQueue">0.0</mlib:attribute>
 				</mlib:attribute-values>
 			</mlib:submodel>
 			<mlib:submodel>
 				<mlib:attribute-values>
-					<mlib:attribute name="QSM::RoutingFactor">1.0</mlib:attribute>
-					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::ServerDownTime">0.87422836</mlib:attribute>
-					<mlib:attribute name="QSM::ServerLoad">0.12577166</mlib:attribute>
+					<mlib:attribute name="QSM::RoutingFactor">0.08556</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.7272</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.7738134</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.22618656</mlib:attribute>
 					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInSystem">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInQueue">0.0</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInSystem">0.12577166106881072841</mlib:attribute>
-					<mlib:attribute name="QSM::ServerUtilization">0.12577166</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInQueue">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.93876332321203143011</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.06580415488589613275</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">0.29199072024375358526</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.22618656</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.21156332321203143011</mlib:attribute>
 				</mlib:attribute-values>
 			</mlib:submodel>
 			<mlib:submodel>
 				<mlib:attribute-values>
-					<mlib:attribute name="QSM::RoutingFactor">1.0</mlib:attribute>
-					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::ServerDownTime">0.87422836</mlib:attribute>
-					<mlib:attribute name="QSM::ServerLoad">0.12577166</mlib:attribute>
+					<mlib:attribute name="QSM::RoutingFactor">0.12539</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.4694</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.7860323</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.21396767</mlib:attribute>
 					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInSystem">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInQueue">0.0</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInSystem">0.12577166106881072841</mlib:attribute>
-					<mlib:attribute name="QSM::ServerUtilization">0.12577166</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInQueue">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.59659532553851322324</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.05797973329899797838</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">0.27194739834742042689</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.21396767</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.12719532553851322324</mlib:attribute>
 				</mlib:attribute-values>
 			</mlib:submodel>
 			<mlib:submodel>
 				<mlib:attribute-values>
-					<mlib:attribute name="QSM::RoutingFactor">0.972376</mlib:attribute>
-					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::ServerDownTime">0.87770265</mlib:attribute>
-					<mlib:attribute name="QSM::ServerLoad">0.12229735</mlib:attribute>
+					<mlib:attribute name="QSM::RoutingFactor">0.22259622664</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.6128</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.5041176</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.49588242</mlib:attribute>
 					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInSystem">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInQueue">0.0</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInSystem">0.12229734470344590085</mlib:attribute>
-					<mlib:attribute name="QSM::ServerUtilization">0.12229735</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInQueue">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">1.20881502199220968838</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.4822998909202306639</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">0.97818231376255363717</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.49588242</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.59601502199220968838</mlib:attribute>
 				</mlib:attribute-values>
 			</mlib:submodel>
 			<mlib:submodel>
 				<mlib:attribute-values>
-					<mlib:attribute name="QSM::RoutingFactor">0.9187008448</mlib:attribute>
-					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::ServerDownTime">0.8844535</mlib:attribute>
-					<mlib:attribute name="QSM::ServerLoad">0.11554653</mlib:attribute>
+					<mlib:attribute name="QSM::RoutingFactor">0.231878914929472</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.2424</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.7956682</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.20433183</mlib:attribute>
 					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInSystem">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInQueue">0.0</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInSystem">0.11554653127581568712</mlib:attribute>
-					<mlib:attribute name="QSM::ServerUtilization">0.11554653</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInQueue">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.30437344539599824345</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.05224070876365355048</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">0.25657254352601947977</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.20433183</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.06197344539599824345</mlib:attribute>
 				</mlib:attribute-values>
 			</mlib:submodel>
 			<mlib:submodel>
 				<mlib:attribute-values>
-					<mlib:attribute name="QSM::RoutingFactor">0.7640935983294528</mlib:attribute>
-					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::ServerDownTime">0.90389866</mlib:attribute>
-					<mlib:attribute name="QSM::ServerLoad">0.09610132</mlib:attribute>
+					<mlib:attribute name="QSM::RoutingFactor">0.2221762442149061</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">1.1313</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.08627069</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.9137293</mlib:attribute>
 					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInSystem">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInQueue">0.0</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInSystem">0.09610132107393994095</mlib:attribute>
-					<mlib:attribute name="QSM::ServerUtilization">0.09610132</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInQueue">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">10.15830353953677093214</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">7.29093780398614610725</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">8.20466713859021706999</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.9137293</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">9.02700353953677093214</mlib:attribute>
 				</mlib:attribute-values>
 			</mlib:submodel>
 			<mlib:submodel>
 				<mlib:attribute-values>
-					<mlib:attribute name="QSM::RoutingFactor">0.7033580904790396</mlib:attribute>
-					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::ServerDownTime">0.91153747</mlib:attribute>
-					<mlib:attribute name="QSM::ServerLoad">0.08846252</mlib:attribute>
+					<mlib:attribute name="QSM::RoutingFactor">0.2404661210909959</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.8324</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.2723406</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.7276594</mlib:attribute>
 					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInSystem">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInQueue">0.0</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInSystem">0.08846251536573567872</mlib:attribute>
-					<mlib:attribute name="QSM::ServerUtilization">0.08846252</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInQueue">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">2.9709062090039905854</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">1.86941865934655578179</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">2.59707803460964123299</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.7276594</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">2.1385062090039905854</mlib:attribute>
 				</mlib:attribute-values>
 			</mlib:submodel>
 			<mlib:submodel>
 				<mlib:attribute-values>
-					<mlib:attribute name="QSM::RoutingFactor">0.5993314288971896</mlib:attribute>
-					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::ServerDownTime">0.9246211</mlib:attribute>
-					<mlib:attribute name="QSM::ServerLoad">0.07537891</mlib:attribute>
+					<mlib:attribute name="QSM::RoutingFactor">0.2331111817816376</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.6788</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.4247626</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.5752374</mlib:attribute>
 					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInSystem">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInQueue">0.0</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInSystem">0.0753789093431433664</mlib:attribute>
-					<mlib:attribute name="QSM::ServerUtilization">0.07537891</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInQueue">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">1.58344932469780519291</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.76662950393784885295</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">1.34186688384397496477</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.5752374</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.90464932469780519291</mlib:attribute>
 				</mlib:attribute-values>
 			</mlib:submodel>
 			<mlib:submodel>
 				<mlib:attribute-values>
-					<mlib:attribute name="QSM::RoutingFactor">0.5255525313370878</mlib:attribute>
-					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::ServerDownTime">0.93390036</mlib:attribute>
-					<mlib:attribute name="QSM::ServerLoad">0.066099614</mlib:attribute>
+					<mlib:attribute name="QSM::RoutingFactor">0.2433147290819544</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.6273</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.4451369</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.5548631</mlib:attribute>
 					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInSystem">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInQueue">0.0</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInSystem">0.06609961484518373601</mlib:attribute>
-					<mlib:attribute name="QSM::ServerUtilization">0.066099614</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInQueue">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">1.39791831298093493302</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.68163186539092083867</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">1.23649496941671777603</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.5548631</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.77061831298093493302</mlib:attribute>
 				</mlib:attribute-values>
 			</mlib:submodel>
 			<mlib:submodel>
 				<mlib:attribute-values>
-					<mlib:attribute name="QSM::RoutingFactor">0.4675042031458438</mlib:attribute>
-					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::ServerDownTime">0.9412012</mlib:attribute>
-					<mlib:attribute name="QSM::ServerLoad">0.05879878</mlib:attribute>
+					<mlib:attribute name="QSM::RoutingFactor">0.2673301306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.48</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.5335219</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.46647814</mlib:attribute>
 					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInSystem">0.3</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInQueue">0.0</mlib:attribute>
-					<mlib:attribute name="QSM::CustomersInSystem">0.05879878018630350473</mlib:attribute>
-					<mlib:attribute name="QSM::ServerUtilization">0.05879878</mlib:attribute>
-					<mlib:attribute name="QSM::TimeInQueue">0.0</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.89547892491881390554</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.40377466877192034934</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">0.870252820578039774</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.46647814</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.41547892491881390554</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.3251301306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.64541477</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.35458523</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.46369726393100879505</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.19348210285981988128</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">0.54806732599714260515</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.35458523</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.16369726393100879505</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.3751001306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.59091777</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.40908223</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.50599552248841660419</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.28089703549839686581</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">0.68997927977027234454</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.40908223</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.20599552248841660419</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.4182501306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.5438586</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.4561414</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.54919057768955303307</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.37888713739762681127</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">0.83502854640746409453</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.4561414</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.24919057768955303307</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.4525501306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.5064512</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.4935488</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.58910223814732041704</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.47562021863705582754</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">0.96916902858575962053</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.4935488</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.28910223814732041704</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.4953301306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.45979553</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.54020447</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.64768923263788415668</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.62607757431259567772</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">1.16628202893082452279</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.54020447</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.34768923263788415668</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.5257501306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.42661965</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.57338035</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.69684638293038425775</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">0.75847972357573160152</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">1.33186007138813884969</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.57338035</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.39684638293038425775</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.5799601306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.36749852</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.6325015</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.80533898457359169979</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">1.06542553702788400592</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">1.69792702784017328012</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.6325015</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.50533898457359169979</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.6181301306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.3258705</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.6741295</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">0.90382133053480702234</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">1.35684589248979377381</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">2.03097538603784207648</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.6741295</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.60382133053480702234</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.6509501306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.2900772</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.7099228</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">1.0092271322114715207</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">1.67832173871967431473</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">2.38824455293284211739</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.7099228</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.7092271322114715207</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.6921601306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.24513376</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.75486624</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">1.18032406956385956009</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">2.21508969079221627319</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">2.96995591587100182705</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.75486624</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.88032406956385956009</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.6951101306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.24191654</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.75808346</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">1.19470923681686093636</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">2.26088097182202237772</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">3.01896445150050636318</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.75808346</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.89470923681686093636</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.7023001306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.23407513</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.7659249</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">1.23120217436485349</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">2.37743630480308565638</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">3.14336116094659734461</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.7659249</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">0.93120217436485349</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.7332801306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.20028853</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.79971147</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">1.415759256140063758</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">2.97428496248394488189</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">3.77399644489818789582</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.79971147</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">1.115759256140063758</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.7450801306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.18741947</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.8125805</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">1.50030636108116706889</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">3.25115181338802816205</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">4.06373231420106490236</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.8125805</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">1.20030636108116706889</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.8233501306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.10205865</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.89794135</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">2.41285774276016505648</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">6.32407447595083918554</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">7.22201583015994244821</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.89794135</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">2.11285774276016505648</mlib:attribute>
+				</mlib:attribute-values>
+			</mlib:submodel>
+			<mlib:submodel>
+				<mlib:attribute-values>
+					<mlib:attribute name="QSM::RoutingFactor">0.8364301306253944</mlib:attribute>
+					<mlib:attribute name="QSM::OverallServiceTime">0.3</mlib:attribute>
+					<mlib:attribute name="QSM::ServerDownTime">0.08779365</mlib:attribute>
+					<mlib:attribute name="QSM::ServerLoad">0.91220635</mlib:attribute>
+					<mlib:attribute name="QSM::ServersCount">1</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInSystem">2.66432741485660869709</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInQueue">7.18918147768816951991</mlib:attribute>
+					<mlib:attribute name="QSM::CustomersInSystem">8.10138781161390176064</mlib:attribute>
+					<mlib:attribute name="QSM::ServerUtilization">0.91220635</mlib:attribute>
+					<mlib:attribute name="QSM::TimeInQueue">2.36432741485660869709</mlib:attribute>
 				</mlib:attribute-values>
 			</mlib:submodel>
 		</mlib:submodel-collection>
